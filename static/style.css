@@ -1,0 +1,967 @@
+#warningbody{
+    background-image:url('BlueBackground.jpg');
+    background-size:cover;
+}
+.fa-solid.fa-triangle-exclamation{
+    font-size:130px;
+    color:red;
+    position:absolute;
+    left:350px;
+}
+#warning{
+    color:red;
+    font-size:30px;
+}
+#headstail{
+    position:absolute;
+    left:300px;
+    top:240px;
+}
+#adminAuthbody{
+    background-image:url('BlueBackground.jpg');
+    background-size:cover;
+}
+#authenticateAdmin{
+    height:300px;
+    width:250px;
+    background-color:white;
+    padding:50px;
+    border-radius:30px;
+    position:absolute;
+    top:80px;
+    left:350px;
+}
+#lock{
+    position:absolute;
+    left:150px;
+    top:35px;
+    font-size:40px;
+}
+#authenticateAdmin input{
+    width:200px;
+    border-radius:0px;
+}
+#authenticateAdmin button{
+    border-radius:5px;
+    width:200px;
+}
+#SigninHead{
+    background-color:#235c91;
+}
+.fa-solid.fa-lock{
+    color:blue;
+    position:absolute;
+    left:80px;
+    font-size:25px;
+}
+#adminWarning{
+    width:200px;
+    height:200px;
+    padding:30px;
+    position:absolute;
+    left:300px;
+    top:300px;
+    height:100px;
+    width:250px;
+    border-radius:20px;
+    border:2px solid  #bfe2e3;
+}
+.mother{
+    background-image:url('bubbles.avif');
+    background-size:cover;
+    padding:50px;
+    border-radius:30px;
+}
+#child{
+    position: relative;
+    left:400px;
+}
+#child input{
+    width: 280px;
+    height: 30px;
+    border-radius:50px;
+}
+#child select{
+    width: 150px;
+    height: 50px;
+    border-radius:50px;
+    padding:20px;
+}
+select{
+    width: 150px;
+    height: 50px;
+    border-radius:50px;
+    padding:20px;
+}
+#child button{
+    width:130px;
+    height:40px;
+    border-radius:15px;
+    background-color:#5f93b8;
+    border:3px solid #3a4a70;
+}
+#logBk{
+    background-image:url('BlueBk.avif');
+    background-size:cover;
+    color:white;
+}
+#loginDiv{
+    position:relative;
+    left:430px;
+}
+#loginDiv input{
+    width: 230px;
+    height: 30px;
+    border-radius:50px;
+}
+input{
+    width: 230px;
+    height: 30px;
+    border-radius:50px;
+}
+#loginDiv button{
+    width:130px;
+    height:40px;
+    border-radius:15px;
+    background-color:#5f93b8;
+    border:3px solid #3a4a70;
+}
+button{
+    width:130px;
+    height:40px;
+    border-radius:15px;
+    background-color:#5f93b8;
+    border:3px solid #3a4a70;
+}
+#UserHomeBody{
+    background-color:#14064d;
+}
+#UserPage{
+    position:relative;
+    left:30px;
+    border-radius:20px;
+    width:900px;
+    background-color: white;
+    padding:30px;
+    border:5px solid  #6e60ab;
+}
+#secdiv{
+    width:820px;
+    height:150px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+#urlsdiv{
+    display:flex;
+    justify-content: space-evenly;
+    color:black;
+    position:relative;
+    left:80px;
+    height:30px;
+}
+#EnroolUrl{
+    width: 100px;
+    height:50px;
+    border:2px solid blue;
+    border-radius:30px;
+    padding:50px;
+    background-color:#daeaf0;
+}
+#EnroolUrl:hover{
+    border:8px solid blue;
+}
+#CoursesUrl{
+    width: 100px;
+    height:50px;
+    border:2px solid #227061;
+    border-radius:30px;
+    padding:50px;
+    background-color:#bdf0e6;
+}
+#CoursesUrl:hover{
+    border:8px solid #227061;
+}
+#TeacherUrl{
+    width: 100px;
+    height:50px;
+    border:2px solid #63095f;
+    border-radius:30px;
+    padding:50px;
+    background-color:#ebbee9;
+}
+#TeacherUrl:hover{
+    border:8px solid #63095f;
+}
+#ReasonUrl{
+    width: 100px;
+    height:50px;
+    border:2px solid #b80b47;
+    border-radius:30px;
+    padding:50px;
+    background-color:#f7a6c2;
+}
+#ReasonUrl:hover{
+    border:8px solid #b80b47;
+}
+#ContactInfo{
+    width: 100px;
+    height:50px;
+    border:2px solid #438c68;
+    border-radius:30px;
+    padding:50px;
+    background-color:#cef0df;
+}
+#ContactInfo:hover{
+    border:8px solid #438c68;
+}
+.motherofusercourse{
+    position:absolute;
+    top:150px;
+    left:250px;
+}
+.motherofteacherdataforusers{
+    position:absolute;
+    top:150px;
+    left:280px;
+}
+#UrlsofUserhome{
+    width:800px;
+    display:flex;
+    justify-content:space-evenly;
+}
+#secHomeUrlDiv{
+    width:555px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.urls{
+    background-color:#486391;
+    color:white;
+    position:relative;
+    left:0px;
+    top:0px;
+    height:700px;
+    width:100px;
+    padding:30px;
+}
+.urls a{
+    color:white;
+}
+#courseurl{
+    position:absolute;
+    top:150px;
+    left:200px;
+}
+.course{
+    width:200px;
+    height:100px;
+    border-radius:30px;
+    padding:50px;
+    border:2px solid blue;
+}
+#teacherurl{
+    position:absolute;
+    top:150px;
+    left:200px;
+}
+.teachers{
+    width:150px;
+    height:100px;
+    border-radius:30px;
+    padding:50px;
+    border:2px solid blue;
+}
+#models{
+    position:absolute;
+    top:150px;
+    left:200px;
+}
+#motherofstuattendece{
+    position:absolute;
+    top:230px;
+    left:280px;
+}
+.classofstuattendence{
+    width:150px;
+    height:100px;
+    border-radius:30px;
+    padding:50px;
+    background-color:#bcebe7;
+    border:2px solid #32a89e;
+}
+#motherofAdminStudentAttendence{
+    position:absolute;
+    top:220px;
+    left:280px;
+}
+.model{
+    width:150px;
+    height:100px;
+    border-radius:30px;
+    padding:50px;
+    border:2px solid blue;
+}
+.contacts{
+    position:absolute;
+    top:160px;
+    left:260px;
+}
+#headerSt{
+    display:flex;
+    height:50px;
+    justify-content: space-between;
+    background-color: #052d73;
+    color:white;
+    padding-left:30px;
+    padding-right:30px;
+}
+#hero{
+    background-image: url('book2.avif');
+    background-size:cover;
+    border-radius:10px;
+    height:300px;
+}
+#student{
+    width:250px;
+    height:150px;
+    border-radius:30px;
+    padding:30px;
+    border:2px solid blue;
+    background-color:#b8dedd;
+}
+#student:hover{
+    border:8px solid blue;
+}
+#subs{
+    width:250px;
+    height:150px;
+    border-radius:30px;
+    padding:30px;
+    border:2px solid #471561;
+    background-color:#d1b8de;
+}
+#subs:hover{
+    border:8px solid #471561;
+}
+#teacher{
+    width:250px;
+    height:150px;
+    border-radius:30px;
+    padding:30px;
+    border:2px solid #6e032a;
+    background-color:#edadc4;
+}
+#teacher:hover{
+    border:8px solid #6e032a;
+}
+#motherStudent{
+    display : flex;
+    justify-content:space-between;
+}
+#continousUrl{
+    display:flex;
+    position:relative;
+    justify-content:space-between;
+    width:900px;
+}
+.stdurls{
+    width:130px;
+    height:800px;
+    position:relative;
+    background-color:#326fa8;
+    padding-top:30px;
+    padding-left:20px;
+    padding-right:10px;
+}
+.stdurls a{
+    color:white;
+}
+#studentForm{
+    position:absolute;
+    top:130px;
+    left:180px;
+}
+#motherStdurl{
+    position: absolute;
+    top:150px;
+    left:280px;
+}
+.studetnData{
+    position:relative;
+    width:250px;
+    height:300px;
+    background-color:#32a896;
+    border:2px solid #224742;
+    padding:50px;
+    border-radius:50px;
+}
+.studetnData:hover{
+    border:8px solid #224742;
+}
+.subsDivurl{
+    position:relative;
+    width:250px;
+    height:250px;
+    background-color:#6a97b8;
+    border:2px solid #0d3654;
+    padding:50px;
+    border-radius:50px;
+}
+.subsDivurl:hover{
+    border:8px solid #0d3654;
+}
+#motherSubDiv{
+    position:absolute;
+    top:150px;
+    left:280px;
+}
+#motherTeacherUrl{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.teacherUrl{
+    position:relative;
+    width:180px;
+    height:180px;
+    background-color:#81628c;
+    border:2px solid  #441e52;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px;
+}
+.teacherUrl a{
+    color:black;
+}
+.teacherUrl:hover{
+    border:8px solid  #441e52;
+}
+#motherofTeachersDaa{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+#motherOfCourseUrl{
+    position:absolute;
+    top:140px;
+    left:200px;
+}
+.motherofClassesUrl{
+    position:absolute;
+    top:140px;
+    left:200px;
+}
+.motherofAttend{
+     position:absolute;
+    top:140px;
+    left:200px;
+}
+#headerAdmin{
+    background-color:darkblue;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    height:10px;
+    padding:15px;
+}
+#adminImg{
+    background-image: url('book2.jpg');
+    background-size: cover;
+    height:400px;
+}
+#GodFather{
+    display:flex;
+    justify-content:space-evenly;
+}
+#secGodFather{
+    display:flex;
+    justify-content:space-evenly;
+}
+#thirdGodFather{
+    display:flex;
+    justify-content:space-evenly;
+}
+#students{
+    width:180px;
+    height:180px;
+    background-color:#b6cfde;
+    border:2px solid  #1b455e;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px;
+}
+#students:hover{
+    border:8px solid  #1b455e;
+}
+#Teachers{
+    width:180px;
+    height:180px;
+    background-color:#c69cd6;
+    border:2px solid  #3b074f;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px;
+}
+#Teachers:hover{
+    border:8px solid  #3b074f;
+}
+#Courses{
+    width:180px;
+    height:180px;
+    background-color:#9bcfbb;
+    border:2px solid  #0c452f;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px;
+}
+#Courses:hover{
+    border:8px solid  #0c452f;
+}
+#Class{
+    width:180px;
+    height:180px;
+    background-color:#cf9f84;
+    border:2px solid  #cf4e06;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px;
+}
+#Class:hover{
+    border:8px solid  #cf4e06;
+}
+#Attendences{
+    width:180px;
+    height:180px;
+    background-color:#baf5e4;
+    border:2px solid  #2e8c71;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px;
+}
+#Attendences:hover{
+    border:8px solid  #2e8c71;
+}
+#Subjects{
+    width:180px;
+    height:180px;
+    background-color:#acb4e6;
+    border:2px solid #08145e;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px; 
+}
+#Subjects:hover{
+    border:8px solid  #08145e;
+}
+#reasons{
+    width:180px;
+    height:180px;
+    background-color:#a3cfb2;
+    border:2px solid #033815;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px; 
+}
+#reasons:hover{
+    border:8px solid  #033815;
+}
+#Enrollment{
+    width:180px;
+    height:180px;
+    background-color:#dda2eb;
+    border:2px solid #340d3d;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px; 
+}
+#Enrollment:hover{
+    border:8px solid  #340d3d;
+}
+.data{
+    width:180px;
+    height:180px;
+    background-color:#f7b7d3;
+    border:2px solid  #700232;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px;
+}
+.data:hover{
+    border:8px solid  #700232;
+}
+#Contact{
+    width:180px;
+    height:180px;
+    background-color:#cae0ed;
+    border:2px solid  #15394f;
+    padding-top:50px;
+    padding:20px;
+    border-radius:50px;
+}
+#Contact:hover{
+    border:8px solid  #15394f;
+}
+.AdminUrls{
+    position:relative;
+    width:150px;
+    height:100%;
+    padding:20px;
+    background-color:#01215c;
+}
+.AdminUrls a{
+    color:white;
+}
+.small{
+    width:183px;
+    height:100px;
+    background-color:white;
+    position:absolute;
+    top:2px;
+    left:2px;
+}
+.fa-solid.fa-school{
+    font-size:30px;
+    position:relative;
+    top:30px;
+    left:20px;
+}
+.header{
+    position:relative;
+    top:30px;
+    left:30px;
+}
+#studentsMotherDiv{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.studetns{
+    width:250px;
+    height:200px;
+    background-color:#a9b6cc;
+    border:2px solid #410e4d;
+    padding:50px;
+    border-radius:50px;
+}
+.studetns:hover{
+    border:10px solid #410e4d;
+}
+#motherDivTeacher{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.Teachuer{
+    width:250px;
+    height:200px;
+    background-color:#cae8e1;
+    border:2px solid #0a4537;
+    padding:50px;
+    border-radius:50px;
+}
+.Teachuer:hover{
+    border:10px solid #0a4537;
+}
+#motherofCourses{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.courseu{
+    width:250px;
+    height:200px;
+    background-color:#e7cced;
+    border:2px solid #510961;
+    padding:50px;
+    border-radius:50px;
+}
+.courseu:hover{
+    border:10px solid #510961;
+}
+#motherofClassesu{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.claasew{
+    width:250px;
+    height:200px;
+    background-color:#e0cab6;
+    border:2px solid #7d4009;
+    padding:50px;
+    border-radius:50px;
+}
+.claasew:hover{
+    border:8px solid #7d4009;
+}
+#motherOfSubjectu{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.subjectu{
+    width:150px;
+    height:100px;
+    background-color:#e0abc3;
+    border:2px solid #8a013f;
+    padding:50px;
+    border-radius:50px;
+}
+.subjectu:hover{
+    border:8px solid #8a013f;
+}
+#motherpofreasons{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.reasonue{
+    width:250px;
+    height:100px;
+    background-color:#d5f2ea;
+    border:2px solid #266956;
+    padding:50px;
+    border-radius:50px;
+}
+.reasonue:hover{
+    border:8px solid #266956;
+}
+#MotherOfContact{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.contactuer{
+    width:300px;
+    height:250px;
+    background-color:#e8aeb3;
+    border:2px solid #a10512;
+    padding:50px;
+    border-radius:50px;
+}
+.contactuer:hover{
+    border:8px solid #a10512;
+}
+#motherofEnrolled{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.motherofenrollstudet{
+    position:absolute;
+    top:210px;
+    left:280px;
+}
+.EnrooledStds{
+    width:150px;
+    height:100px;
+    background-color:#b5e8d9;
+    border:2px solid #1a7359;
+    padding:50px;
+    border-radius:50px;
+}
+.EnrooledStds:hover{
+    border:8px solid #1a7359;
+}
+#motherOfPendingAdd{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.PendingAdds{
+    width:150px;
+    height:100px;
+    background-color:#deb8e0;
+    border:2px solid  #6f2673;
+    padding:50px;
+    border-radius:50px;
+}
+.PendingAdds:hover{
+    border:8px solid #6f2673;
+}
+#motherofAttendence{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.sttendenceeu{
+    width:150px;
+    height:100px;
+    background-color:#b6d2e3;
+    border:2px solid  #033d61;
+    padding:50px;
+    border-radius:50px;
+}
+.sttendenceeu:hover{
+    border:8px solid #033d61;
+}
+.motherofallStudents{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.motherofTeachers{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.motherofAllCourse{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.motherofallClasses{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.subjsmotherofalltime{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+.motherofPendingAdds{
+    position:absolute;
+    top:180px;
+    left:280px;
+}
+#mother{
+    position:absolute;
+    top:150px;
+    left:280px;
+}
+#headerofteacher{
+    height:5px;
+    padding:30px;
+    background-color:#0c2d66;
+    display:flex;
+    justify-content:space-between;
+    color:white;
+}
+#teacherimage{
+    background-image:url('bookf.jpg');
+    background-size: cover;
+    height:300px;
+}
+#content{
+    position:relative;
+    top:90px;
+    left:180px;
+}
+#motherofallteachersdata{
+    position:absolute;
+    left:300px;
+}
+#showteacher{
+    height:10px;
+    width:260px;
+    padding:20px;
+    background-color:#a1b3d1;
+    border-radius:10px;
+    color:#115ea6;
+}
+#enterteacherdata{
+    height:10px;
+    width:260px;
+    padding:20px;
+    background-color:#6dc9b0;
+    border-radius:10px;
+    color:#62a37d;
+}
+#showteachercourses{
+    height:19px;
+    width:260px;
+    padding:20px;
+    background-color:#e2c3e8;
+    border-radius:10px;
+    color:#7b088a;
+}
+#showTeachersClasses{
+    height:10px;
+    width:260px;
+    padding:20px;
+    background-color:#ebad73;
+    border-radius:10px;
+    color:#d46b2a;
+}
+#enterteachercourses{
+    height:10px;
+    width:260px;
+    padding:20px;
+    background-color:#abf5c6;
+    border-radius:10px;
+    color:#2a7a49;
+}
+#allsubsforteacher{
+    height:10px;
+    width:260px;
+    padding:20px;
+    background-color:#f0a3c4;
+    border-radius:10px;
+    color:#c22360;
+}
+#entersubsforteachers{
+    height:10px;
+    width:260px;
+    padding:20px;
+    background-color:#9fb6c2;
+    border-radius:10px;
+    color:#0e4496;
+}
+#attendenceforteacher{
+    height:10px;
+    width:260px;
+    padding:20px;
+    background-color:#fadeb9;
+    border-radius:10px;
+    color:#964d09;
+}
+#allattendencedataforteachers{
+    height:20px;
+    width:260px;
+    padding:20px;
+    background-color:#dbbae6;
+    border-radius:10px;
+    color:#861e96;
+}
+#backgroundofteacher{
+    background-image:url('blueBkFl.jpg');
+    background-size:cover;
+}
+.teacherurl{
+    width:180px;
+    height:1100px;
+    position:relative;
+    background-color:#291170;
+    padding:20px;
+}
+.teacherurl a{
+    color:white
+}
+#teacherd{
+    position:absolute;
+    top:150px;
+    left:280px;
+}
+#coursesforteachers{
+    position:absolute;
+    top:150px;
+    left:280px;
+}
+.classesforTeachers{
+    position:absolute;
+    top:150px;
+    left:280px;
+}
+.subsinfoforteachers{
+    position:absolute;
+    top:150px;
+    left:280px;
+}
+.attendenceforStudents{
+    position:absolute;
+    top:150px;
+    left:280px;
+}

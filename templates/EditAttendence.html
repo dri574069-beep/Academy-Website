@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Attendence</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>Edit Attendence</h1>
+    <form method="POST" enctype="multipart/form-data" action="{% url 'EditAttendence' id=id %}">
+        {% csrf_token %}
+        {{Aform.as_p}}
+        <button type="submit">Save Changes</button>
+    </form>
+</body>
+</html>

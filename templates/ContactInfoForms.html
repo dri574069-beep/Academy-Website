@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>Enter the following credentials</h1>
+    <form method="POST" action="{% url 'ContactInfo' %}">
+        {% csrf_token %}
+        {{contact.as_p}}
+        <button type="submit">Enter</button>
+    </form>
+</body>
+</html>

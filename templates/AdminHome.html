@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer"> 
+</head>
+<body>
+    <div id="headerAdmin">
+        <div>
+            <i class="fa-solid fa-graduation-cap"></i> Academy
+        </div>
+        <div>
+            <i class="fa-solid fa-house"></i> Home
+        </div>
+    </div>
+    <div id="adminImg"><h1>Wecome to the Academy Portal</h1>
+    Manage Students,Teacher,Courses,Class,and more  - all in one place</div>
+    <br>
+    <div id="GodFather">
+    <div id="students">
+    <h1><i class="fa-solid fa-users"></i>  Students</h1>
+    <a href="{% url 'student' %}"><i class="fa-solid fa-link"></i>  Student database</a>
+    </div>
+    <br><BR>
+    <div id="Teachers">
+    <h1><i class="fa-solid fa-user-graduate"></i>  Teachers Data</h1>
+    <a href="{% url 'GetTeacherData' %}">  <i class="fa-solid fa-link"></i>Enter Teachers Data</a>
+    <BR><BR>
+    <a href="{%  url 'Teacher' %}"><i class="fa-solid fa-link"></i>  Teachers Database</a>
+    </div>
+    <br><BR>
+    <div id="Courses">
+    <h1><i class="fa-solid fa-graduation-cap"></i>  Courses</h1>
+    <a href="{% url 'Courses' %}"><i class="fa-solid fa-link"></i>  Courses</a>
+    <BR><BR>
+    <a href="{% url 'GetCourseData' %}"><i class="fa-solid fa-link"></i>  Enter Courses</a>
+    </div>
+    </div>
+    <br>
+    <div id="secGodFather">
+    <div id="Class">
+    <h1><i class="fa-solid fa-chalkboard-user"></i>  Classes</h1>
+    <a href="{% url 'Claas' %}"><i class="fa-solid fa-link"></i>  Classes Database</a>
+    <BR><BR>
+    <a href="{% url 'getClassesData' %}"><i class="fa-solid fa-link"></i>  Enter Classes Data</a>
+    </div>
+    <BR><BR>
+    <div id="Attendences">
+    <h3><i class="fa-solid fa-list"></i>  Attendences Database</h3>
+    <a href="{% url 'getAttenDate' %}"><h3><i class="fa-solid fa-link"></i>  Attendence Form</h3></a>
+    <a href="{% url 'allStudentsforAdmin'  %}"><i class="fa-solid fa-link"></i>Attendence</a>
+    </div>
+    <br>
+    <div id="Subjects">
+    <h1><i class="fa-solid fa-book"></i>   Subjects</h1>
+    <a href="{% url 'getSubjectData' %}"><i class="fa-solid fa-link"></i>  Enter subjects</a>
+    <br><BR>
+    <a href="{% url 'allsubjects' %}"><i class="fa-solid fa-link"></i>   Subjects database</a>
+    </div>
+    </div>
+    <br><br>
+    <div id="thirdGodFather">
+    <div id="reasons">
+    <h1><i class="fa-solid fa-star"></i>  Why Choose Us</h1>
+    <a href="{% url 'WhyChooseUs' %}"><i class="fa-solid fa-link"></i>  Enter Why Choose Use Data</a>
+    <BR>
+     <a href="{% url 'showWhyChooseUsForAdmin' %}"><i class="fa-solid fa-link"></i>   Check Data</a>
+    </div>
+    <BR><BR><BR>
+    <div id="Contact">
+    <h1><i class="fa-solid fa-phone"></i>   Contact</h1>
+    <a href="{% url 'ContactInfo' %}"><i class="fa-solid fa-link"></i>   Enter Contact Info</a>
+    <BR><BR>
+    <a href="{% url 'ShowContactInfoForAdmin' %}"><i class="fa-solid fa-link"></i>  Check Contact Info</a>
+    </div>
+    <br><br>
+    <div id="Enrollment">
+    <h1>Enrollment</h1>
+    <a href="{% url 'StudEnrollment' %}"><i class="fa-solid fa-user-plus"></i>  Enroll New Student</a>
+    <br><BR>
+    <a href="{% url 'showAllEnStd' %}"><i class="fa-solid fa-users"></i>  Enrolled Students Data</a>
+    <BR><BR>
+    <a href="{% url 'ShowAllRegisForadmin' %}"><i class="fa-solid fa-file-lines"></i>  Pending Addmissions</a>
+    </div>
+    </div>
+    <BR>
+    <BR><BR>
+    {% for data in stdData %}
+    <div class="data">
+        <a href="{% url 'showStudentData' id=data.id %}"><i class="fa-solid fa-user"></i>  {{data.studentName}}</a>
+    </div>
+    {% endfor %}
+</body>
+</html>

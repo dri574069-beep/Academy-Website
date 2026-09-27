@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendence</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>Attendence Data</h1>
+    {% for a in attendence %}
+        <p>Student : {{a.student}}</p>
+        <p>Is Present : {{a.isPresent}}</p>
+        <p>Course Or Class : {{a.course}}</p>
+        <p>Date : {{a.date}}</p>
+        <p>Status : {{a.status}}</p>
+        <p>Teacher : {{a.Teacher}}</p>
+    {% endfor %}
+</body>
+</html>

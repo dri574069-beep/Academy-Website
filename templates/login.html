@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body id="logBk">
+    <div id="loginDiv">
+    <BR><BR><BR><BR><BR>
+    <h1>Login</h1>
+    <form method="POST" action="{% url 'userauthentication' %}">
+        {% csrf_token %}
+        {{log.as_p}}
+        <button type="submit">Login</button>
+    </form>
+    </div>
+</body>
+</html>

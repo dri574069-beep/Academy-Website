@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Student</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>Edit Student</h1>
+    <BR><BR>
+    <form method="POST" enctype="multipart/form-data" action="{% url 'EditStudent' id=id %}">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Save Changes</button>
+    </form>
+</body>
+</html>

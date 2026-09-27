@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div id="headerSt"> <p><i class="fa-solid fa-graduation-cap"></i>  Academy</p>   <p><i class="fa-solid fa-house"></i>   Home</p></div>
+    <BR>
+    <div id="hero">
+    <h1 style="position:absolute;top:80px;color:black;padding:20px;left:300px">Welcome</h1>
+    <p  style="position:absolute;top:150px;color:black;padding:20px;left:370px">Your Journey Begins Here  <i class="fa-solid fa-star"></i></p>
+    </div>
+    <br><BR><BR>
+    <div id="motherStudent">
+    <div id="student">
+    <h1><i class="fa-solid fa-user-group"></i> Student</h1>
+    <a href="{% url 'studentForms' %}"><i class="fa-solid fa-link"></i>  Enter your Data</a>
+    <BR><BR>
+    <a href="{% url 'showStudentData' %}"><i class="fa-solid fa-link"></i>  Check Your data</a>
+    </div>
+    <BR><BR>
+    <div id="subs">
+    <h1><i class="fa-solid fa-book"></i>   Subjects</h1>
+    <a href="{% url 'SubjectDataforUsers' %}"><i class="fa-solid fa-link"></i> Subjects data</a>
+    </div>
+    <BR><BR>
+    <div id="teacher">
+    <h1><i class="fa-solid fa-user-graduate"></i>  Teacher</h1>
+    <a href="{% url 'allTeacherData' %}"><i class="fa-solid fa-link"></i>  Teachers Data</a>
+    </div>
+    </div>
+    <br><br>
+    <div id="continousUrl">
+    <div>
+    <h1><i class="fa-solid fa-graduation-cap"></i> Courses</h1>
+    {% for c in Courses %}
+        <a href="{% url 'showCourses' id=c.id %}"><i class="fa-solid fa-link"></i>{{c.CourseName}}</h1></a>
+        <BR><BR>
+    {% endfor %}
+    </div>
+    <div>
+    <h1><i class="fa-solid fa-book"></i>  Classes </h1>
+    {% for cdata in class %}
+        <a href="{% url 'showClasses' id=cdata.id %}"><i class="fa-solid fa-link"></i>  Class : {{cdata.className}}</a>
+        <BR><BR>
+    {% endfor %}
+    </div>
+    <div>
+    <h1><i class="fa-solid fa-list"></i>  Attendence </h1>
+    {% for a in attendence %}
+    <a href="{% url 'showSata' id=a.id %}"><i class="fa-solid fa-link"></i>  Student : {{a.student}}</a>
+    <BR><BR>
+    {% endfor %}
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Form</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body id="adminAuthbody">
+    <div id="authenticateAdmin">
+        <i class="fa-solid fa-lock" id="lock"></i>
+        <BR>
+    <h1>Admin Authentication</h1>
+    <form method="POST" action="{% url 'AdminAuthentication' %}">
+        {% csrf_token %}
+        {{admin.as_p}}
+        <button type="submit"><i class="fa-solid fa-arrow-right-to-bracket"></i>  Login</button>
+    </form>
+    </div>
+</body>
+</html>

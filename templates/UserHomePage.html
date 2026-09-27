@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body id="UserHomeBody">
+    <div id="UserPage">
+        <div id="secdiv">
+        <h1 style="color:#344885;"><i class="fa-solid fa-graduation-cap"></i>  Academic</h1>
+        <div id="urlsdiv">
+        <a href="{% url 'Addmission' %}"><i class="fa-solid fa-star"></i>  Enroll</a>
+        <a href="{% url 'ShowUserCourses' %}"><i class="fa-solid fa-star"></i>  Courses </a>
+        <a href="{% url 'showAllTeachersForUser' %}"><i class="fa-solid fa-star"></i>  Teachers</a>
+        <a href="{% url 'showWhyChooseUs' %}"><i class="fa-solid fa-star"></i>  About</a>
+        <a href="{% url 'ShowContactInfo' %}"><i class="fa-solid fa-star"></i>  Contact</a>
+        </div>
+    <hr style="width:800px">
+    </div>
+    <div id="imj" style="position:absolute;top:150px">
+    <h1>Learn.Grow.Achieve</h1>
+    <p>Build your future with quality courses and experienced teachers</p>
+    </div>
+    <br><br><br><br>
+    <p style="position:absolute;left:350px;top:250px;color:#2e160b">Qick Access</p>
+    <BR><BR><BR><BR>
+    <div id="UrlsofUserhome">
+    <div id="EnroolUrl">
+    <a href="{% url 'Addmission' %}"><h3><i class="fa-solid fa-file-circle-check"></i>  Enroll Now</h3></a>
+    </div>
+    <BR><BR>
+    <div id="CoursesUrl">
+    <a href="{% url 'ShowUserCourses' %}"><h3><i class="fa-solid fa-book-open"></i>  Courses</h3></a>
+    </div>
+    <BR><BR>
+    <div id="TeacherUrl">
+    <a href="{% url 'showAllTeachersForUser' %}"><h3><i class="fa-solid fa-user-graduate"></i>  Teachers</h3></a>
+    </div>
+    </div>
+    <BR><BR>
+    <div id="secHomeUrlDiv">
+    <div id="ReasonUrl">
+    <a href="{% url 'showWhyChooseUs' %}"><h3><i class="fa-solid fa-star"></i>  About Us</h3></a>
+    </div>
+    <BR><BR>
+    <div id="ContactInfo">
+    <a href="{% url 'ShowContactInfo' %}"><h3><i class="fa-brands fa-rocketchat"></i>  Contact Info</h3></a>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

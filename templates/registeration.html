@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body id="SigninHead">
+    <div class="mother">
+    <h1 style="color:#1e3978;position:absolute;top:180px;left:80px;">Welcome</h1>
+    <div id="child">
+    <h1>Sign In</h1>
+    <form method="POST" action="{% url 'signIn' %}">
+        {% csrf_token %}
+        {{regis.as_p}}
+        <button type="submit">SignIn</button>
+    </form>
+    </div>
+    </div>
+</body>
+</html>

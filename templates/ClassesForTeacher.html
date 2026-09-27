@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes Data</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer"> 
+</head>
+<body>
+    <div class="teacherurl">
+        <a href="{% url 'showTeachersData' %}"><i class="fa-solid fa-user-graduate"></i>  Your Data</a>
+        <BR><BR><BR>
+        <a href="{% url 'TeacherDataForm' %}"><i class="fa-solid fa-pen-to-square"></i>  Enter your data</a>
+        <BR><BR><BR>
+        <a href="{% url 'showTeacherCouurse' %}"><i class="fa-solid fa-book"></i>  Check all courses you are enrolled in</a>
+        <BR><BR><BR>
+         <a href="{% url 'showTeachersClasses' %}"><i class="fa-solid fa-person-chalkboard"></i>  Your Assigned Classes</a>
+        <BR><BR><BR>
+        <a href="{% url 'GetCourseData' %}"><i class="fa-solid fa-graduation-cap"></i>  Enter Courses</a>
+        <BR><BR><BR>
+        <a href="{% url 'SubjectInfoForTeacher' %}"><i class="fa-solid fa-book-open"></i>  Check all subjects</a>
+        <BR><BR><BR>
+        <a href="{% url 'getSubjectData' %}"><i class="fa-regular fa-pen-to-square"></i>  enter subjects</a>
+        <BR><BR><BR>
+        <a href="{% url 'getAttenDate' %}"><i class="fa-solid fa-calendar-days"></i>  Enter you class or course attendence</a>
+        <BR><BR><BR>
+        <a href="{% url 'showAttendenceForTeachers' %}"><i class="fa-regular fa-clipboard"></i>    See your class attendences attendences</a>
+    </div>
+    <h1 style="position:absolute;top:20px;left:250px"><i class="fa-solid fa-person-chalkboard"></i>   Your assigned classes</h1>
+    <Hr  style="position:absolute;top:90px;left:230px;height:2px;background-color:blue;width:1100px">
+    <div class="classesforTeachers">
+    {% for class in classes %}
+        <p><i class="fa-solid fa-star-half-stroke"></i>  Class : {{class.className}}</p>
+        <p><i class="fa-solid fa-star-half-stroke"></i>  Teacher : {{class.Teacher}}</p>
+        <p><i class="fa-solid fa-star-half-stroke"></i>  Days : {{class.days}}</p>
+        <p><i class="fa-solid fa-star-half-stroke"></i>  Start time : {{class.start_time}}</p>
+        <p><i class="fa-solid fa-star-half-stroke"></i>  End Time : {{class.end_time}}</p>
+        <p><i class="fa-solid fa-star-half-stroke"></i>  Room : {{class.room}}</p>
+        <p>Capacity : {{class.capacity}}</p>
+    {% endfor %}
+    </div>
+</body>
+</html>

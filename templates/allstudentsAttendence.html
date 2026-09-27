@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Attendence</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="AdminUrls">
+        <div class="small">
+            <i class="fa-solid fa-school"> </i>  <strong class="header">Academy</strong>
+        </div>
+        <BR><BR><BR><BR><BR><BR>
+        <a href="{% url 'student' %}"><i class="fa-solid fa-link"></i>  Student database</a>
+        <BR><BR>
+        <a href="{% url 'GetTeacherData' %}">  <i class="fa-solid fa-link"></i>Enter Teachers Data</a>
+        <BR><BR>
+        <a href="{%  url 'Teacher' %}"><i class="fa-solid fa-link"></i>  Teachers Database</a>
+        <BR><BR>
+        <a href="{% url 'Courses' %}"><i class="fa-solid fa-link"></i>  Courses</a>
+        <BR><BR>
+        <a href="{% url 'GetCourseData' %}"><i class="fa-solid fa-link"></i>  Enter Courses</a>
+        <BR><BR>
+        <a href="{% url 'Claas' %}"><i class="fa-solid fa-link"></i>  Courses Database</a>
+        <BR><BR>
+        <a href="{% url 'getClassesData' %}"><i class="fa-solid fa-link"></i>  Enter Classes Data</a>
+        <BR><BR>
+        <a href="{% url 'attendence' %}"><i class="fa-solid fa-link"></i>  Attendence</a>
+        <BR><BR>
+        <a href="{% url 'getSubjectData' %}"><i class="fa-solid fa-link"></i>  Enter subjects</a>
+        <br><BR>
+        <a href="{% url 'allsubjects' %}"><i class="fa-solid fa-link"></i>   Subjects database</a>
+        <BR><BR>
+        <a href="{% url 'WhyChooseUs' %}"><i class="fa-solid fa-link"></i>  Enter Why Choose Use Data</a>
+        <BR><BR>
+        <a href="{% url 'showWhyChooseUs' %}"><i class="fa-solid fa-link"></i>   Check Data</a>
+        <BR><BR>
+        <a href="{% url 'ContactInfo' %}"><i class="fa-solid fa-link"></i>   Enter Contact Info</a>
+        <BR><BR>
+        <a href="{% url 'ShowContactInfo' %}"><i class="fa-solid fa-link"></i>  Check Contact Info</a>
+        <BR><BR>
+        <a href="{% url 'StudEnrollment' %}"><i class="fa-solid fa-user-plus"></i>  Enroll New Student</a>
+        <br><BR>
+        <a href="{% url 'showAllEnStd' %}"><i class="fa-solid fa-users"></i>  Enrolled Students Data</a>
+        <BR><BR>
+        <a href="{% url 'ShowAllRegisForadmin' %}"><i class="fa-solid fa-file-lines"></i>  Pending Addmissions</a>
+    </div>
+    <h1  style="position:absolute;top:30px;left:250px;"><i class="fa-solid fa-list"></i>  All Students Attendence</h1>
+    <hr style="position:absolute;top:120px;left:220px;height:2px;background-color:darkblue;width:900px">
+    <div id="motherofstuattendece">
+    {% for s in student %}
+    <div class="classofstuattendence">
+        <a href="{% url 'showSata' id=s.id %}"><h3><i class="fa-solid fa-list"></i>  {{s.studentName}} Attendence</h3></a>
+    </div>
+    <BR><BR>
+    {% endfor %}
+    </div>
+</body>
+</html>
