@@ -3336,3 +3336,31 @@ select {
         overflow-wrap: break-word !important;
     }
 }
+
+
+
+.teachers {
+    width: 280px;
+    min-height: 220px;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    .teachers {
+        width: min(90%, 320px);
+        min-height: 200px;
+        height: auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 600px) {
+    .teachers {
+        width: 90%;
+        min-height: 180px;
+        padding: 20px;
+    }
+}
