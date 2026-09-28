@@ -2795,7 +2795,22 @@ select {
     }
 }
 
+
 @media (max-width: 800px) {
+    #motherDivTeacher {
+        position: absolute !important;
+        top: 120px !important;
+        left: 190px !important;
+        width: calc(100vw - 210px) !important;
+        max-width: calc(100vw - 210px) !important;
+        margin: 0 !important;
+        padding: 15px !important;
+        box-sizing: border-box !important;
+        overflow: visible !important;
+    }
+}
+
+/* @media (max-width: 800px) {
     #motherDivTeacher form {
         position: relative !important;
         width: 100% !important;
@@ -2813,4 +2828,4 @@ select {
         max-width: 100% !important;
         box-sizing: border-box !important;
     }
-}
+} */
