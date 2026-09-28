@@ -3472,3 +3472,10 @@ select {
         height: 200px;
     }
 }
+
+@media (min-width: 801px) {
+    .reasonue {
+        width: 250px;
+        height: 200px;
+    }
+}
