@@ -2547,3 +2547,14 @@ select {
         margin: 10px auto !important;
     }
 }
+
+@media (max-width: 600px) {
+
+    hr {
+        position: absolute !important;
+        top: 90px !important;
+        left: 5% !important;
+        width: 90% !important;
+        margin: 0 !important;
+    }
+}
