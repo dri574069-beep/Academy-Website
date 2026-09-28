@@ -3392,8 +3392,8 @@ select {
 
 @media (min-width: 801px) {
     .model {
-        width: 150px;
-        height: 100px;
+        width: 250px;
+        height: 180px;
         padding: 50px;
         box-sizing: border-box;
     }
