@@ -2919,8 +2919,13 @@ select {
         display: flex !important;
         flex-direction: column !important;
         align-items: stretch !important;
+
         width: 150px !important;
         max-width: 150px !important;
+
+        min-height: 100vh !important;
+        height: auto !important;
+
         box-sizing: border-box !important;
         gap: 10px !important;
     }
