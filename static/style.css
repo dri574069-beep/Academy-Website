@@ -3487,3 +3487,11 @@ select {
         height: 380px;
     }
 }
+
+
+@media (min-width: 801px) {
+    .EnrooledStds {
+        width: 200px;
+        height: 150px;
+    }
+}
