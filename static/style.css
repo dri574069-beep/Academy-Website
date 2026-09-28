@@ -1949,12 +1949,12 @@ select {
 }
 
 @media (max-width: 900px) {
-    .motherStdurl {
+    #motherStdurl {
         position: absolute !important;
         top: 150px !important;
         left: 200px !important;
         width: calc(100% - 220px) !important;
-        max-width: 100% !important;
+        max-width: calc(100% - 220px) !important;
 
         margin: 0 !important;
         padding: 10px !important;
@@ -1964,8 +1964,7 @@ select {
         word-break: break-word !important;
     }
 
-    .motherStdurl p {
-        max-width: 100% !important;
+    #motherStdurl p {
         margin: 0 0 15px 0 !important;
         line-height: 1.5 !important;
         overflow-wrap: anywhere !important;
