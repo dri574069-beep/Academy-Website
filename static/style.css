@@ -3461,14 +3461,14 @@ select {
 
 @media (min-width: 801px) {
     .classofstuattendence {
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 200px;
     }
 }
 
 @media (min-width: 801px) {
     .subjectu {
-        width: 200px;
-        height: 150px;
+        width: 250px;
+        height: 200px;
     }
 }
