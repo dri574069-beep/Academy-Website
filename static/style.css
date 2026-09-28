@@ -3388,3 +3388,13 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+@media (min-width: 801px) {
+    .model {
+        width: 150px;
+        height: 100px;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+}
