@@ -1947,3 +1947,28 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+@media (max-width: 900px) {
+    .motherStdurl {
+        position: absolute !important;
+        top: 150px !important;
+        left: 200px !important;
+        width: calc(100% - 220px) !important;
+        max-width: 100% !important;
+
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+
+        overflow-wrap: anywhere !important;
+        word-break: break-word !important;
+    }
+
+    .motherStdurl p {
+        max-width: 100% !important;
+        margin: 0 0 15px 0 !important;
+        line-height: 1.5 !important;
+        overflow-wrap: anywhere !important;
+        word-break: break-word !important;
+    }
+}
