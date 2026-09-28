@@ -965,3 +965,753 @@ a{
     top:150px;
     left:280px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================================
+   RESPONSIVE + SMOOTHNESS UPDATE
+   Add this at the VERY END of your CSS file.
+   No HTML changes required.
+   ========================================================= */
+
+/* ---------- GLOBAL ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    min-height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Make images/backgrounds behave nicely */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Links and buttons feel less static */
+a,
+button,
+.course,
+.teachers,
+.model,
+.classofstuattendence,
+.studetnData,
+.subsDivurl,
+.teacherUrl,
+.studetns,
+.Teachuer,
+.courseu,
+.claasew,
+.subjectu,
+.reasonue,
+.contactuer,
+.EnrooledStds,
+.PendingAdds,
+.sttendenceeu {
+    transition:
+        transform 0.25s ease,
+        border 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+}
+
+/* Slight movement instead of things looking completely static */
+button:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   ADMIN / WARNING / AUTHENTICATION
+   ========================================================= */
+
+#warningbody,
+#adminAuthbody,
+#logBk,
+#backgroundofteacher {
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Warning icon */
+.fa-solid.fa-triangle-exclamation {
+    max-width: 90vw;
+}
+
+/* Authentication box */
+#authenticateAdmin {
+    max-width: calc(100vw - 40px);
+}
+
+/* Admin warning */
+#adminWarning {
+    max-width: calc(100vw - 40px);
+}
+
+
+/* =========================================================
+   LOGIN / SIGN IN
+   ========================================================= */
+
+#loginDiv,
+#child {
+    max-width: calc(100vw - 40px);
+}
+
+#loginDiv input,
+#child input,
+input {
+    max-width: 100%;
+}
+
+#child select,
+select {
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   USER HOME
+   ========================================================= */
+
+#UserPage {
+    max-width: calc(100vw - 40px);
+}
+
+#secdiv {
+    max-width: 100%;
+}
+
+#urlsdiv {
+    max-width: 100%;
+}
+
+#UrlsofUserhome,
+#secHomeUrlDiv,
+#continousUrl {
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   USER HOME CARDS
+   ========================================================= */
+
+#EnroolUrl,
+#CoursesUrl,
+#TeacherUrl,
+#ReasonUrl,
+#ContactInfo {
+    flex-shrink: 1;
+    transition:
+        transform 0.25s ease,
+        border 0.25s ease;
+}
+
+#EnroolUrl:hover,
+#CoursesUrl:hover,
+#TeacherUrl:hover,
+#ReasonUrl:hover,
+#ContactInfo:hover {
+    transform: translateY(-5px);
+}
+
+
+/* =========================================================
+   SIDE NAVIGATION
+   ========================================================= */
+
+.urls,
+.stdurls,
+.AdminUrls,
+.teacherurl {
+    flex-shrink: 0;
+}
+
+/* Prevent sidebars from causing horizontal overflow */
+.urls,
+.stdurls,
+.AdminUrls,
+.teacherurl {
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   STUDENT / TEACHER / ADMIN CONTENT
+   ========================================================= */
+
+#student,
+#subs,
+#teacher,
+#students,
+#Teachers,
+#Courses,
+#Class,
+#Attendences,
+#Subjects,
+#reasons,
+#Enrollment,
+.data,
+#Contact {
+    max-width: 100%;
+    flex-shrink: 1;
+}
+
+
+/* =========================================================
+   ADMIN HEADER
+   ========================================================= */
+
+#headerAdmin,
+#headerSt,
+#headerofteacher {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* =========================================================
+   ADMIN HERO
+   ========================================================= */
+
+#adminImg,
+#hero,
+#teacherimage {
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+}
+
+
+/* =========================================================
+   ADMIN CARDS
+   ========================================================= */
+
+#GodFather,
+#secGodFather,
+#thirdGodFather {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+
+/* =========================================================
+   TEACHER CONTENT
+   ========================================================= */
+
+#content {
+    max-width: calc(100vw - 40px);
+}
+
+#motherofallteachersdata {
+    max-width: calc(100vw - 40px);
+}
+
+
+/* =========================================================
+   RESPONSIVE TABLET
+   ========================================================= */
+
+@media (max-width: 1000px) {
+
+    /* Reduce large fixed horizontal offsets */
+    #child,
+    #loginDiv,
+    #UserPage,
+    #courseurl,
+    #teacherurl,
+    #models,
+    #motherofstuattendece,
+    #motherofAdminStudentAttendence,
+    .contacts,
+    #studentForm,
+    #motherStdurl,
+    #motherSubDiv,
+    #motherTeacherUrl,
+    #motherofTeachersDaa,
+    #motherOfCourseUrl,
+    .motherofClassesUrl,
+    .motherofAttend,
+    #studentsMotherDiv,
+    #motherDivTeacher,
+    #motherofCourses,
+    #motherofClassesu,
+    #motherOfSubjectu,
+    #motherpofreasons,
+    #MotherOfContact,
+    #motherofEnrolled,
+    .motherofenrollstudet,
+    #motherOfPendingAdd,
+    #motherofAttendence,
+    .motherofallStudents,
+    .motherofTeachers,
+    .motherofAllCourse,
+    .motherofallClasses,
+    .subjsmotherofalltime,
+    .motherofPendingAdds,
+    #mother,
+    #teacherd,
+    #coursesforteachers,
+    .classesforTeachers,
+    .subsinfoforteachers,
+    .attendenceforStudents {
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #child,
+    #loginDiv {
+        width: min(90%, 600px);
+    }
+
+    #UserPage {
+        width: 90%;
+    }
+
+    #secdiv {
+        width: 100%;
+    }
+
+    #urlsdiv {
+        width: 100%;
+        left: 0;
+    }
+
+    #UrlsofUserhome,
+    #secHomeUrlDiv,
+    #continousUrl {
+        width: 100%;
+    }
+
+    #motherofallteachersdata {
+        left: 0;
+    }
+}
+
+
+/* =========================================================
+   RESPONSIVE TABLET / SMALL LAPTOP
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    /* Headers become flexible */
+    #headerSt,
+    #headerAdmin,
+    #headerofteacher {
+        height: auto;
+        min-height: 50px;
+        padding: 15px;
+    }
+
+    /* Horizontal card rows can wrap */
+    #motherStudent,
+    #GodFather,
+    #secGodFather,
+    #thirdGodFather,
+    #urlsdiv,
+    #UrlsofUserhome,
+    #secHomeUrlDiv,
+    #continousUrl {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /* Remove large fixed offsets */
+    .motherofusercourse,
+    .motherofteacherdataforusers {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 20px auto;
+    }
+
+    /* Main content */
+    #content {
+        position: relative;
+        top: 20px;
+        left: 0;
+        width: 90%;
+        margin: auto;
+    }
+
+    /* Sidebars */
+    .urls,
+    .stdurls,
+    .AdminUrls,
+    .teacherurl {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        padding: 15px;
+    }
+
+    .urls a,
+    .stdurls a,
+    .AdminUrls a,
+    .teacherurl a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    /* Login / admin authentication */
+    #authenticateAdmin {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: min(90%, 350px);
+        margin: 60px auto;
+    }
+
+    #lock {
+        position: relative;
+        left: auto;
+        top: auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /* Warning */
+    #headstail {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+        margin: 30px auto;
+        width: 90%;
+    }
+
+    .fa-solid.fa-triangle-exclamation {
+        position: relative;
+        left: auto;
+        display: block;
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    /* Forms */
+    #studentForm {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    /* Full width containers */
+    #UserPage,
+    #content,
+    #child,
+    #loginDiv {
+        width: calc(100% - 30px);
+        max-width: none;
+    }
+
+    /* Header */
+    #headerSt,
+    #headerAdmin,
+    #headerofteacher {
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* Navigation */
+    #urlsdiv,
+    #UrlsofUserhome,
+    #secHomeUrlDiv,
+    #continousUrl {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+
+    /* Cards */
+    #EnroolUrl,
+    #CoursesUrl,
+    #TeacherUrl,
+    #ReasonUrl,
+    #ContactInfo,
+    #student,
+    #subs,
+    #teacher,
+    #students,
+    #Teachers,
+    #Courses,
+    #Class,
+    #Attendences,
+    #Subjects,
+    #reasons,
+    #Enrollment,
+    .data,
+    #Contact,
+    .studetnData,
+    .subsDivurl,
+    .teacherUrl,
+    .studetns,
+    .Teachuer,
+    .courseu,
+    .claasew,
+    .subjectu,
+    .reasonue,
+    .contactuer,
+    .EnrooledStds,
+    .PendingAdds,
+    .sttendenceeu {
+        width: min(90%, 320px);
+        height: auto;
+        min-height: 120px;
+        margin: 10px auto;
+        padding: 30px;
+    }
+
+    /* Don't let hover borders make cards jump too much */
+    #EnroolUrl:hover,
+    #CoursesUrl:hover,
+    #TeacherUrl:hover,
+    #ReasonUrl:hover,
+    #ContactInfo:hover,
+    #student:hover,
+    #subs:hover,
+    #teacher:hover,
+    #students:hover,
+    #Teachers:hover,
+    #Courses:hover,
+    #Class:hover,
+    #Attendences:hover,
+    #Subjects:hover,
+    #reasons:hover,
+    #Enrollment:hover,
+    .data:hover,
+    #Contact:hover,
+    .studetnData:hover,
+    .subsDivurl:hover,
+    .teacherUrl:hover,
+    .studetns:hover,
+    .Teachuer:hover,
+    .courseu:hover,
+    .claasew:hover,
+    .subjectu:hover,
+    .reasonue:hover,
+    .contactuer:hover,
+    .EnrooledStds:hover,
+    .PendingAdds:hover,
+    .sttendenceeu:hover {
+        transform: translateY(-3px);
+    }
+
+    /* Hero sections */
+    #hero {
+        height: 220px;
+    }
+
+    #adminImg {
+        height: 250px;
+    }
+
+    #teacherimage {
+        height: 220px;
+    }
+
+    /* Form inputs */
+    input,
+    #loginDiv input,
+    #child input {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    select,
+    #child select {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    button,
+    #loginDiv button,
+    #child button {
+        max-width: 100%;
+    }
+
+    /* Teacher/admin content */
+    #showteacher,
+    #enterteacherdata,
+    #showteachercourses,
+    #showTeachersClasses,
+    #enterteachercourses,
+    #allsubsforteacher,
+    #entersubsforteachers,
+    #attendenceforteacher,
+    #allattendencedataforteachers {
+        width: calc(100% - 30px);
+        max-width: 320px;
+        height: auto;
+        min-height: 50px;
+        margin: 10px auto;
+    }
+
+    /* Teacher page content */
+    #teacherd,
+    #coursesforteachers,
+    .classesforTeachers,
+    .subsinfoforteachers,
+    .attendenceforStudents {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    /* Backgrounds */
+    #warningbody,
+    #adminAuthbody,
+    #logBk,
+    #backgroundofteacher {
+        background-attachment: scroll;
+        background-position: center;
+    }
+}
+
+
+/* =========================================================
+   VERY SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    #UserPage {
+        padding: 15px;
+        border-width: 3px;
+    }
+
+    .mother {
+        padding: 20px;
+    }
+
+    #hero {
+        height: 180px;
+    }
+
+    #adminImg {
+        height: 200px;
+    }
+
+    #teacherimage {
+        height: 180px;
+    }
+
+    .fa-solid.fa-triangle-exclamation {
+        font-size: 90px;
+    }
+
+    #warning {
+        font-size: 24px;
+    }
+}
+
+
+/* =========================================================
+   SMOOTH PAGE APPEARANCE
+   ========================================================= */
+
+#UserPage,
+#authenticateAdmin,
+#adminWarning,
+#student,
+#subs,
+#teacher,
+#students,
+#Teachers,
+#Courses,
+#Class,
+#Attendences,
+#Subjects,
+#reasons,
+#Enrollment,
+.data,
+#Contact {
+    animation: smoothAppear 0.5s ease;
+}
+
+@keyframes smoothAppear {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* =========================================================
+   ACCESSIBILITY / REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
