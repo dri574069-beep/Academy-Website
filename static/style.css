@@ -2399,3 +2399,50 @@ select {
         top: 40px !important;
     }
 }
+
+#teacherd {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: 90% !important;
+    max-width: 900px !important;
+
+    margin: 20px auto !important;
+}
+@media (max-width: 600px) {
+    #teacherd {
+        top: -30px !important;
+        margin: 0 auto !important;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .teacherurl,
+    .teacherUrl {
+        position: relative !important;
+        width: 150px !important;
+        min-width: 150px !important;
+        max-width: 150px !important;
+
+        height: auto !important;
+        min-height: 400px !important;
+
+        padding: 15px 8px !important;
+        margin: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .teacherurl a,
+    .teacherUrl a {
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        margin: 10px 0 !important;
+    }
+}
