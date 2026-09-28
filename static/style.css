@@ -2417,3 +2417,18 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+#students,
+#teachers,
+#courses,
+#classes,
+#subjects,
+#attendance,
+#enrollment,
+#reasons,
+#contact {
+    width: 280px;
+    min-height: 180px;
+    padding: 30px;
+    box-sizing: border-box;
+}
