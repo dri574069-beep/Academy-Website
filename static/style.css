@@ -2075,60 +2075,45 @@ select {
         padding: 20px;
     }
 }
-/* Fix teacher sidebar on smaller screens */
 @media (max-width: 900px) {
+
     .teacherurl,
     .teacherUrl {
-        position: relative;
-        top: auto;
-        left: auto;
-        right: auto;
-        bottom: auto;
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
 
-        width: 100%;
-        height: auto;
-        min-height: 0;
+        width: 180px !important;
+        min-width: 180px !important;
+        height: auto !important;
+        min-height: 500px !important;
 
-        margin: 0;
-        padding: 20px;
-        box-sizing: border-box;
+        margin: 0 !important;
+        padding: 20px 10px !important;
 
-        text-align: center;
+        box-sizing: border-box !important;
     }
 
     .teacherurl a,
     .teacherUrl a {
-        display: inline-block;
-        margin: 6px 10px;
-        padding: 5px;
+        display: block !important;
+        margin: 12px 0 !important;
     }
 }
 
 @media (max-width: 600px) {
+
     .teacherurl,
     .teacherUrl {
-        width: 100%;
-        height: auto;
-        padding: 15px;
+        width: 150px !important;
+        min-width: 150px !important;
+        min-height: 400px !important;
+        padding: 15px 8px !important;
     }
 
     .teacherurl a,
     .teacherUrl a {
-        display: block;
-        margin: 8px auto;
-    }
-}
-@media (max-width: 900px) {
-    #motherTeacherUrl,
-    #motherofTeachersDaa {
-        position: relative;
-        top: auto;
-        left: auto;
-        right: auto;
-        bottom: auto;
-
-        width: 90%;
-        max-width: 900px;
-        margin: 30px auto;
+        display: block !important;
+        margin: 10px 0 !important;
     }
 }
