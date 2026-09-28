@@ -2423,12 +2423,12 @@ select {
 #Courses,
 #Class,
 #Subjects,
-#Attendances,
+#Attendences,
 #Enrollment,
 #reasons,
-#contact {
+#Contact {
     width: 280px;
-    min-height: 180px;
+    min-height: 200px;
     padding: 30px;
     box-sizing: border-box;
 }
