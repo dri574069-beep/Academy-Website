@@ -3398,3 +3398,17 @@ select {
         box-sizing: border-box;
     }
 }
+
+
+@media (max-width: 800px) {
+    .contacts {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+        width: calc(100vw - 190px) !important;
+        max-width: calc(100vw - 190px) !important;
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+    }
+}
