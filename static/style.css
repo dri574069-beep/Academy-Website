@@ -2743,3 +2743,17 @@ select {
         box-sizing: border-box !important;
     }
 }
+@media (max-width: 800px) {
+    .classesforTeachers {
+        position: absolute !important;
+        top: 120px !important;
+        left: 200px !important;
+
+        width: calc(100vw - 220px) !important;
+        max-width: calc(100vw - 220px) !important;
+
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+    }
+}
