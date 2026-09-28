@@ -2042,8 +2042,8 @@ select {
 @media (max-width: 900px) {
     form {
         margin-left: 200px !important;
-        width: 400px !important;
-        max-width: calc(100vw - 220px) !important;
+        width: calc(100vw - 220px) !important;
+        max-width: none !important;
         box-sizing: border-box !important;
     }
 
