@@ -2055,3 +2055,27 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+@media (max-width: 900px) {
+    #AuthenticateAdmin {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    #AuthenticateAdmin form {
+        margin-left: 0 !important;
+        width: 100% !important;
+        max-width: 500px !important;
+        box-sizing: border-box;
+    }
+
+    #AuthenticateAdmin form input,
+    #AuthenticateAdmin form select,
+    #AuthenticateAdmin form textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+}
