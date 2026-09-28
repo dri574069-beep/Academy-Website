@@ -2557,3 +2557,26 @@ select {
         margin: 0 !important;
     }
 }
+
+
+
+@media (max-width: 600px) {
+    .teacherurl {
+        position: absolute !important;
+        top: 120px !important;
+        left: 8px !important;
+
+        width: 180px !important;
+        min-width: 180px !important;
+        max-width: 180px !important;
+
+        height: auto !important;
+        box-sizing: border-box !important;
+    }
+
+    .teacherurl a {
+        display: block !important;
+        width: auto !important;
+        max-width: 100% !important;
+    }
+}
