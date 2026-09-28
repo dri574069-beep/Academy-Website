@@ -1971,3 +1971,12 @@ select {
         word-break: break-word !important;
     }
 }
+
+
+@media (max-width: 900px) {
+    #motherStdurl {
+        height: auto !important;
+        min-height: 0 !important;
+        max-height: none !important;
+    }
+}
