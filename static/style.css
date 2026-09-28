@@ -3248,3 +3248,70 @@ select {
         display: none !important;
     }
 }
+
+
+
+/* ===== FINAL USER HOME FIX ===== */
+
+@media (min-width: 801px) {
+    #UserPage,
+    #UrlsofUserhome,
+    #secHomeUrlDiv,
+    #EnroolUrl,
+    #CoursesUrl,
+    #TeacherUrl,
+    #ReasonUrl,
+    #ContactInfo {
+        position: relative !important;
+        max-width: none !important;
+    }
+
+    #EnroolUrl,
+    #CoursesUrl,
+    #TeacherUrl,
+    #ReasonUrl,
+    #ContactInfo {
+        width: auto !important;
+        min-width: 200px !important;
+        min-height: 80px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    #UserPage {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 15px !important;
+        box-sizing: border-box !important;
+    }
+
+    #UrlsofUserhome,
+    #secHomeUrlDiv {
+        position: relative !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 15px !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    #EnroolUrl,
+    #CoursesUrl,
+    #TeacherUrl,
+    #ReasonUrl,
+    #ContactInfo {
+        position: relative !important;
+        width: 100% !important;
+        max-width: 500px !important;
+        min-width: 0 !important;
+        height: auto !important;
+        min-height: 75px !important;
+        margin: 0 !important;
+        padding: 15px !important;
+        box-sizing: border-box !important;
+    }
+}
