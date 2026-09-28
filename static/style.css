@@ -2039,12 +2039,18 @@ select {
         box-sizing: border-box !important;
     }
 }
-
 @media (max-width: 900px) {
+    form {
+        margin-left: 200px !important;
+        width: 400px !important;
+        max-width: calc(100vw - 220px) !important;
+        box-sizing: border-box !important;
+    }
+
     form input,
     form select,
     form textarea {
-        width: 350px !important;
+        width: 100% !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
     }
