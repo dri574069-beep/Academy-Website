@@ -2394,3 +2394,8 @@ select {
     left: 0 !important;
     margin: 0 auto !important;
 }
+@media (max-width: 600px) {
+    #adminWarning {
+        top: 40px !important;
+    }
+}
