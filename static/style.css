@@ -2381,3 +2381,15 @@ select {
     margin-top: 80px !important;
     margin-bottom: 30px !important;
 }
+
+#adminWarning {
+    position: static !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+
+    width: min(90%, 500px) !important;
+    margin: 80px auto 30px auto !important;
+    box-sizing: border-box !important;
+}
