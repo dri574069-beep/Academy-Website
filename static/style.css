@@ -1930,3 +1930,20 @@ select {
         line-height: 1.4 !important;
     }
 }
+
+@media (max-width: 900px) {
+    form {
+        margin-left: 200px !important;
+        width: calc(100% - 220px) !important;
+        max-width: 350px !important;
+        box-sizing: border-box !important;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+}
