@@ -3512,3 +3512,28 @@ select {
         height: 100vh !important;
     }
 }
+
+@media (min-width: 801px) {
+    .studetns {
+        width: 250px;
+        height: 200px;
+    }
+}
+@media (min-width: 801px) {
+    .Teachuer {
+        width: 250px;
+        height: 200px;
+    }
+}
+@media (min-width: 801px) {
+    .courseu {
+        width: 250px;
+        height: 200px;
+    }
+}
+@media (min-width: 801px) {
+    .claasew {
+        width: 250px;
+        height: 200px;
+    }
+}
