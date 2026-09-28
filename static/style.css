@@ -3315,3 +3315,24 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+
+
+@media (min-width: 801px) {
+    .course {
+        width: auto !important;
+        min-width: 250px !important;
+        max-width: 100% !important;
+        height: auto !important;
+        min-height: 100px !important;
+        box-sizing: border-box !important;
+        overflow: visible !important;
+    }
+
+    .course * {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        overflow-wrap: break-word !important;
+    }
+}
