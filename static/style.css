@@ -3273,7 +3273,7 @@ select {
     #ContactInfo {
         width: auto !important;
         min-width: 200px !important;
-        min-height: 80px !important;
+        min-height: 180px !important;
     }
 }
 
