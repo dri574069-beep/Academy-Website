@@ -1843,3 +1843,22 @@ select {
         line-height: 1.5 !important;
     }
 }
+
+@media (max-width: 600px) {
+
+    form {
+        width: calc(100% - 30px) !important;
+        max-width: 350px !important;
+        margin: 100px auto 20px auto !important;
+        box-sizing: border-box !important;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+}
