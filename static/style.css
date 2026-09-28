@@ -2537,46 +2537,65 @@ select {
         box-sizing: border-box !important;
     }
 
-    /* Line stays at the top */
-    hr {
-        position: relative !important;
-        top: auto !important;
-        left: auto !important;
-
-        width: 90% !important;
-        margin: 10px auto !important;
-    }
-}
-
 @media (max-width: 600px) {
-    hr {
-        position: absolute !important;
-        top: 110px !important;
-        left: 8% !important;
-        width: 84% !important;
-        margin: 0 !important;
-    }
-}
 
-
-
-@media (max-width: 600px) {
+    /* Sidebar */
     .teacherurl {
         position: absolute !important;
-        top: 120px !important;
-        left: 8px !important;
+        top: 0 !important;
+        left: 0 !important;
 
         width: 180px !important;
         min-width: 180px !important;
         max-width: 180px !important;
 
         height: auto !important;
+        min-height: 500px !important;
+
+        padding: 15px 10px !important;
         box-sizing: border-box !important;
     }
 
     .teacherurl a {
         display: block !important;
         width: auto !important;
-        max-width: 100% !important;
+        margin: 12px 0 !important;
+        line-height: 1.4 !important;
+    }
+
+    /* Heading */
+    h1 {
+        position: absolute !important;
+        top: 20px !important;
+        left: 200px !important;
+
+        width: calc(100% - 210px) !important;
+        font-size: 24px !important;
+    }
+
+    /* Horizontal line */
+    hr {
+        position: absolute !important;
+        top: 110px !important;
+        left: 200px !important;
+
+        width: calc(100% - 215px) !important;
+        height: 2px !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Course information */
+    #coursesforteachers {
+        position: absolute !important;
+        top: 140px !important;
+        left: 200px !important;
+
+        width: calc(100% - 215px) !important;
+        box-sizing: border-box !important;
+    }
+
+    #coursesforteachers p {
+        overflow-wrap: break-word !important;
     }
 }
