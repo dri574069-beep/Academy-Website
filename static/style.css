@@ -2056,26 +2056,37 @@ select {
     }
 }
 
-@media (max-width: 900px) {
-    #AuthenticateAdmin {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        padding: 15px;
+@media (max-width: 600px) {
+    #authenticateAdmin {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+
+        width: 90% !important;
+        max-width: 350px !important;
+        height: auto !important;
+
+        margin: 60px auto !important;
+        padding: 30px !important;
+
+        box-sizing: border-box !important;
     }
 
-    #AuthenticateAdmin form {
-        margin-left: 0 !important;
+    #authenticateAdmin form {
         width: 100% !important;
-        max-width: 500px !important;
-        box-sizing: border-box;
+        margin: 0 !important;
+        box-sizing: border-box !important;
     }
 
-    #AuthenticateAdmin form input,
-    #AuthenticateAdmin form select,
-    #AuthenticateAdmin form textarea {
+    #authenticateAdmin input {
         width: 100% !important;
         max-width: 100% !important;
-        box-sizing: border-box;
+        box-sizing: border-box !important;
+    }
+
+    #authenticateAdmin button {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
     }
 }
