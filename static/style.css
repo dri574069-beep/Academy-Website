@@ -2810,7 +2810,7 @@ select {
     }
 }
 
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
     #motherDivTeacher form {
         position: relative !important;
         width: 100% !important;
@@ -2828,4 +2828,4 @@ select {
         max-width: 100% !important;
         box-sizing: border-box !important;
     }
-} */
+}
