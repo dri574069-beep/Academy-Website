@@ -2376,3 +2376,8 @@ select {
     width: min(90%, 500px) !important;
     box-sizing: border-box !important;
 }
+
+#adminWarning {
+    margin-top: 80px !important;
+    margin-bottom: 30px !important;
+}
