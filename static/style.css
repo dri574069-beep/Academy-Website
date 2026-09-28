@@ -2117,3 +2117,16 @@ select {
         margin: 10px 0 !important;
     }
 }
+
+
+
+@media (max-width: 900px) {
+    hr {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+
+        width: 90% !important;
+        margin: 20px auto !important;
+    }
+}
