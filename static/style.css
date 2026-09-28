@@ -3547,7 +3547,7 @@ select {
 
 @media (min-width: 801px) {
     .studetnDatat {
-        width: 400;
+        width: 400px;
         height: 450px;
     }
 }
