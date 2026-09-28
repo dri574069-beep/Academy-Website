@@ -3039,15 +3039,17 @@ select {
     }
 }
 
-
 @media (max-width: 800px) {
     .motherofteacherdataforusers {
         position: absolute !important;
         top: 120px !important;
         left: 170px !important;
-        width: calc(100vw - 190px) !important;
-        max-width: calc(100vw - 190px) !important;
+
+        width: calc(100vw - 180px) !important;
+        max-width: calc(100vw - 180px) !important;
+
         margin: 0 !important;
+        padding: 20px !important;
         box-sizing: border-box !important;
     }
 }
