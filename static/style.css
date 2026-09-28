@@ -2350,6 +2350,7 @@ select {
 }
 
 
+
 @media (max-width: 800px) {
     .motherofClassesUrl {
         position: absolute !important;
@@ -2431,4 +2432,20 @@ select {
     min-height: 200px;
     padding: 30px;
     box-sizing: border-box;
+}
+
+
+@media (max-width: 800px) {
+    .motherofallClasses {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+
+        width: calc(100vw - 190px) !important;
+        max-width: none !important;
+
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+    }
 }
