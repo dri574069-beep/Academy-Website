@@ -1996,3 +1996,19 @@ select {
         width: calc(100% - 240px) !important;
     }
 }
+
+@media (max-width: 900px) {
+    #motherTeacherUrl {
+        margin-left: 200px !important;
+        width: calc(100% - 220px) !important;
+        max-width: none !important;
+        box-sizing: border-box !important;
+    }
+}
+
+@media (max-width: 900px) {
+    #motherTeacherUrl {
+        margin-left: 220px !important;
+        width: calc(100% - 240px) !important;
+    }
+}
