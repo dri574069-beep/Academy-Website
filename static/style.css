@@ -2172,15 +2172,35 @@ select {
         box-sizing: border-box !important;
     }
 
+    @media (max-width: 800px) {
+    #studentsMotherDiv {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+
+        width: calc(100vw - 190px) !important;
+        margin: 0 !important;
+        padding: 10px !important;
+
+        box-sizing: border-box !important;
+    }
+
     .studetns {
         position: relative !important;
 
-        width: 220px !important;
-        height: 180px !important;
+        width: 100% !important;
+        max-width: 220px !important;
+
+        height: auto !important;
+        min-height: 180px !important;
 
         padding: 25px !important;
         margin: 0 auto !important;
 
         box-sizing: border-box !important;
+
+        overflow-wrap: break-word !important;
+        word-break: break-word !important;
     }
+}
 }
