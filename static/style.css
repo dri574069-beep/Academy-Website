@@ -2130,3 +2130,21 @@ select {
         margin: 20px auto !important;
     }
 }
+@media (max-width: 900px) {
+    input,
+    select,
+    textarea {
+        max-width: 280px !important;
+        box-sizing: border-box !important;
+    }
+}
+
+@media (max-width: 600px) {
+    input,
+    select,
+    textarea {
+        width: 220px !important;
+        max-width: 90% !important;
+        box-sizing: border-box !important;
+    }
+}
