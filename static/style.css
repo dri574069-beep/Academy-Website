@@ -2858,3 +2858,35 @@ select {
         overflow: visible !important;
     }
 }
+
+@media (max-width: 800px) {
+
+    .motherofenrollstudet form {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .motherofenrollstudet form input,
+    .motherofenrollstudet form select,
+    .motherofenrollstudet form textarea,
+    .motherofenrollstudet form button {
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+}
