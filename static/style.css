@@ -2377,10 +2377,6 @@ select {
     box-sizing: border-box !important;
 }
 
-#adminWarning {
-    margin-top: 80px !important;
-    margin-bottom: 30px !important;
-}
 
 #adminWarning {
     position: static !important;
@@ -2392,4 +2388,11 @@ select {
     width: min(90%, 500px) !important;
     margin: 80px auto 30px auto !important;
     box-sizing: border-box !important;
+}
+
+#adminWarning {
+    position: relative !important;
+    top: 150px !important;
+    left: 0 !important;
+    margin: 0 auto !important;
 }
