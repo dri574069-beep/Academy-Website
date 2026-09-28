@@ -2429,7 +2429,7 @@ select {
 #reasons,
 #Contact {
     width: 280px;
-    min-height: 200px;
+    min-height: 300px;
     padding: 30px;
     box-sizing: border-box;
 }
