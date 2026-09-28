@@ -2795,6 +2795,26 @@ select {
     }
 }
 
+@media (max-width: 800px) {
+    #motherDivTeacher form {
+        position: relative !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    #motherDivTeacher form input,
+    #motherDivTeacher form select,
+    #motherDivTeacher form textarea,
+    #motherDivTeacher form button {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+}
+
 
 @media (max-width: 800px) {
     #motherDivTeacher form {
