@@ -3439,4 +3439,22 @@ select {
         max-width: 100% !important;
         box-sizing: border-box !important;
     }
+    #authenticateAdmin input,
+    #authenticateAdmin textarea,
+    #authenticateAdmin select,
+    #authenticateAdmin button {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    #authenticateAdmin p,
+    #authenticateAdmin label,
+    #authenticateAdmin h1,
+    #authenticateAdmin h2,
+    #authenticateAdmin h3 {
+        max-width: 100% !important;
+        overflow-wrap: anywhere !important;
+        word-break: break-word !important;
+    }
 }
