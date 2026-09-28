@@ -2134,3 +2134,25 @@ select {
         margin-bottom: 20px !important;
     }
 }
+
+@media (max-width: 800px) {
+    #studentsMotherDiv {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: calc(100% - 170px) !important;
+        margin-left: 170px !important;
+        padding: 15px !important;
+        box-sizing: border-box !important;
+    }
+
+    .studetns {
+        width: 100% !important;
+        max-width: 250px !important;
+        height: auto !important;
+        min-height: 150px !important;
+        padding: 30px !important;
+        box-sizing: border-box !important;
+        margin: 10px auto !important;
+    }
+}
