@@ -2044,7 +2044,7 @@ select {
     form input,
     form select,
     form textarea {
-        width: 320px !important;
+        width: 350px !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
     }
