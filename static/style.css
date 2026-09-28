@@ -1862,3 +1862,24 @@ select {
     }
 
 }
+
+@media (max-width: 900px) {
+    .subsinfoforteachers {
+        position: absolute !important;
+        top: 150px !important;
+        left: 200px !important;
+        width: calc(100% - 220px) !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+        overflow-wrap: anywhere !important;
+        word-break: break-word !important;
+    }
+
+    .subsinfoforteachers p {
+        max-width: 100% !important;
+        overflow-wrap: anywhere !important;
+        word-break: break-word !important;
+        line-height: 1.5 !important;
+    }
+}
