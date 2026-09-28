@@ -3458,3 +3458,10 @@ select {
         word-break: break-word !important;
     }
 }
+
+@media (min-width: 801px) {
+    .classofstuattendence {
+        width: 200px;
+        height: 150px;
+    }
+}
