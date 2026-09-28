@@ -2251,3 +2251,100 @@ select {
     text-align: center;
     margin-bottom: 20px;
 }
+
+#students,
+#Teachers,
+#Courses,
+#Class,
+#Attendences,
+#Subjects,
+#reasons,
+#Enrollment,
+#Contact {
+    width: 280px !important;
+    min-height: 220px !important;
+    height: auto !important;
+
+    padding: 25px !important;
+    margin: 15px !important;
+
+    box-sizing: border-box !important;
+
+    overflow-wrap: break-word;
+}
+
+#students h1,
+#Teachers h1,
+#Courses h1,
+#Class h1,
+#Subjects h1,
+#reasons h1,
+#Contact h1 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+#Attendences h3 {
+    font-size: 18px;
+}
+
+#Enrollment h1 {
+    font-size: 22px;
+}
+
+#students a,
+#Teachers a,
+#Courses a,
+#Class a,
+#Attendences a,
+#Subjects a,
+#reasons a,
+#Contact a,
+#Enrollment a {
+    line-height: 1.5;
+}
+
+
+/* Keep the three cards in each row on a normal laptop */
+#GodFather,
+#secGodFather,
+#thirdGodFather {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+/* Smaller screens */
+@media (max-width: 900px) {
+    #students,
+    #Teachers,
+    #Courses,
+    #Class,
+    #Attendences,
+    #Subjects,
+    #reasons,
+    #Enrollment,
+    #Contact {
+        width: min(90%, 320px) !important;
+        min-height: 200px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    #students,
+    #Teachers,
+    #Courses,
+    #Class,
+    #Attendences,
+    #Subjects,
+    #reasons,
+    #Enrollment,
+    #Contact {
+        width: 90% !important;
+        min-height: 180px !important;
+        padding: 20px !important;
+    }
+}
