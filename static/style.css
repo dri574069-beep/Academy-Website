@@ -2988,3 +2988,38 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+@media (max-width: 800px) {
+
+    /* Teacher URL section */
+    #teacherurl {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+
+        width: calc(100vw - 190px) !important;
+        max-width: calc(100vw - 190px) !important;
+
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+        overflow: visible !important;
+    }
+
+    /* Teacher card */
+    .teachers {
+        width: 100% !important;
+        max-width: 400px !important;
+
+        min-height: 220px !important;
+        height: auto !important;
+
+        margin: 0 auto !important;
+        padding: 25px !important;
+
+        box-sizing: border-box !important;
+        overflow-wrap: anywhere !important;
+        word-break: break-word !important;
+    }
+}
