@@ -3537,3 +3537,9 @@ select {
         height: 250px;
     }
 }
+@media (min-width: 801px) {
+    #student {
+        width: 250px;
+        height: 250px;
+    }
+}
