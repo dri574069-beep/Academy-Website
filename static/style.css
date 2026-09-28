@@ -2549,12 +2549,11 @@ select {
 }
 
 @media (max-width: 600px) {
-
     hr {
         position: absolute !important;
-        top: 90px !important;
-        left: 5% !important;
-        width: 90% !important;
+        top: 110px !important;
+        left: 8% !important;
+        width: 84% !important;
         margin: 0 !important;
     }
 }
