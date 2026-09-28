@@ -3419,7 +3419,7 @@ select {
 @media (max-width: 800px) {
     #authenticateAdmin {
         position: absolute !important;
-        top: 120px !important;
+        top: 50px !important;
         left: 170px !important;
 
         width: calc(100vw - 190px) !important;
