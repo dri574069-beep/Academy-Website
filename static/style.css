@@ -2371,7 +2371,6 @@ select {
     position: relative !important;
     left: auto !important;
     right: auto !important;
-    top: auto !important;
     margin: 30px auto !important;
     width: min(90%, 500px) !important;
     box-sizing: border-box !important;
@@ -2380,7 +2379,6 @@ select {
 
 #adminWarning {
     position: static !important;
-    top: auto !important;
     bottom: auto !important;
     left: auto !important;
     right: auto !important;
