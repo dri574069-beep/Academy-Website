@@ -3495,11 +3495,20 @@ select {
         height: 200px;
     }
 }
+@media (min-width: 801px), (max-width: 600px) {
+    .AdminUrls {
+        height: 100vh !important;
+        min-height: 100vh !important;
+        max-height: none !important;
+        box-sizing: border-box !important;
+    }
+}
 
 @media (min-width: 801px), (max-width: 600px) {
     .AdminUrls {
-        height: 100vh;
-        min-height: 100vh;
-        box-sizing: border-box;
+        position: fixed !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        height: 100vh !important;
     }
 }
