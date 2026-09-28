@@ -3479,3 +3479,11 @@ select {
         height: 200px;
     }
 }
+
+
+@media (min-width: 801px) {
+    .contactuer {
+        width: 350px;
+        height: 380px;
+    }
+}
