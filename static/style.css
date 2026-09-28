@@ -2090,3 +2090,31 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+@media (max-width: 600px) {
+    #authenticateAdmin {
+        position: absolute !important;
+        top: 50px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+
+        width: 90vw !important;
+        max-width: 350px !important;
+        height: 300px !important;
+
+        padding: 30px !important;
+        box-sizing: border-box !important;
+    }
+
+    #authenticateAdmin input {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    #authenticateAdmin button {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+}
