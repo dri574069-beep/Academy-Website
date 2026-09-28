@@ -2392,7 +2392,7 @@ select {
 
 #adminWarning {
     position: relative !important;
-    top: 150px !important;
+    top: 100px !important;
     left: 0 !important;
     margin: 0 auto !important;
 }
