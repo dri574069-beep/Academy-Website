@@ -1953,30 +1953,30 @@ select {
         position: absolute !important;
         top: 150px !important;
         left: 200px !important;
-        width: calc(100% - 220px) !important;
-        max-width: calc(100% - 220px) !important;
+
+        width: calc(100% - 210px) !important;
+        max-width: none !important;
+
+        height: auto !important;
+        min-height: 0 !important;
 
         margin: 0 !important;
         padding: 10px !important;
         box-sizing: border-box !important;
-
-        overflow-wrap: anywhere !important;
-        word-break: break-word !important;
     }
 
     #motherStdurl p {
-        margin: 0 0 15px 0 !important;
-        line-height: 1.5 !important;
+        margin: 0 0 10px 0 !important;
+        line-height: 1.4 !important;
         overflow-wrap: anywhere !important;
-        word-break: break-word !important;
     }
 }
 
 
 @media (max-width: 900px) {
-    #motherStdurl {
+    .studetnData {
         height: auto !important;
         min-height: 0 !important;
-        max-height: none !important;
+        padding: 20px !important;
     }
 }
