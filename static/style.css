@@ -2419,12 +2419,12 @@ select {
 }
 
 #students,
-#teachers,
-#courses,
-#classes,
-#subjects,
-#attendance,
-#enrollment,
+#Teachers,
+#Courses,
+#Class,
+#Subjects,
+#Attendances,
+#Enrollment,
 #reasons,
 #contact {
     width: 280px;
