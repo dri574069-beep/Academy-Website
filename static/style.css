@@ -1715,3 +1715,363 @@ select {
         scroll-behavior: auto !important;
     }
 }
+/* =========================================================
+   FINAL LAYOUT FIX
+   Fixes absolute-positioned sections on smaller screens
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    /* Main content containers */
+    #courseurl,
+    #teacherurl,
+    #models,
+    #motherofstuattendece,
+    #motherofAdminStudentAttendence,
+    .contacts,
+
+    #motherofallteachersdata,
+    #studentsMotherDiv,
+    #motherDivTeacher,
+    #motherofCourses,
+    #motherofClassesu,
+    #motherOfSubjectu,
+    #motherpofreasons,
+    #MotherOfContact,
+    #motherofEnrolled,
+    .motherofenrollstudet,
+    #motherOfPendingAdd,
+    #motherofAttendence,
+
+    .motherofallStudents,
+    .motherofTeachers,
+    .motherofAllCourse,
+    .motherofallClasses,
+    .subjsmotherofalltime,
+    .motherofPendingAdds,
+
+    #mother,
+    #teacherd,
+    #coursesforteachers,
+    .classesforTeachers,
+    .subsinfoforteachers,
+    .attendenceforStudents {
+
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+
+        width: 90%;
+        max-width: 900px;
+
+        margin: 30px auto;
+    }
+
+
+    /* Stop fixed-height navigation from covering the page */
+
+    .urls,
+    .stdurls,
+    .AdminUrls,
+    .teacherurl {
+
+        position: relative;
+
+        width: 100%;
+        height: auto;
+
+        min-height: 0;
+
+        padding: 20px;
+
+        margin: 0;
+    }
+
+
+    /* Navigation links stay inside their container */
+
+    .urls a,
+    .stdurls a,
+    .AdminUrls a,
+    .teacherurl a {
+
+        display: inline-block;
+
+        margin: 5px 8px;
+    }
+
+
+    /* Prevent large fixed-width sections */
+
+    #UrlsofUserhome,
+    #secHomeUrlDiv,
+    #continousUrl,
+    #urlsdiv {
+
+        position: relative;
+
+        left: auto;
+        top: auto;
+
+        width: 100%;
+        height: auto;
+
+        display: flex;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 20px;
+    }
+
+
+    /* Cards */
+
+    .studetns,
+    .Teachuer,
+    .courseu,
+    .claasew,
+    .subjectu,
+    .reasonue,
+    .contactuer,
+    .EnrooledStds,
+    .PendingAdds,
+    .sttendenceeu {
+
+        position: relative;
+
+        width: min(90%, 350px);
+
+        height: auto;
+
+        min-height: 120px;
+
+        margin: 15px auto;
+
+        padding: 30px;
+
+        left: auto;
+        top: auto;
+    }
+
+
+    /* Teacher options */
+
+    #showteacher,
+    #enterteacherdata,
+    #showteachercourses,
+    #showTeachersClasses,
+    #enterteachercourses,
+    #allsubsforteacher,
+    #entersubsforteachers,
+    #attendenceforteacher,
+    #allattendencedataforteachers {
+
+        width: min(90%, 350px);
+
+        height: auto;
+
+        min-height: 50px;
+
+        margin: 12px auto;
+    }
+}
+
+
+/* =========================================================
+   PHONE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+    /* Everything that was absolutely positioned
+       becomes normal page content */
+
+    #courseurl,
+    #teacherurl,
+    #models,
+    #motherofstuattendece,
+    #motherofAdminStudentAttendence,
+    .contacts,
+
+    #studentsMotherDiv,
+    #motherDivTeacher,
+    #motherofCourses,
+    #motherofClassesu,
+    #motherOfSubjectu,
+    #motherpofreasons,
+    #MotherOfContact,
+    #motherofEnrolled,
+    .motherofenrollstudet,
+    #motherOfPendingAdd,
+    #motherofAttendence,
+
+    .motherofallStudents,
+    .motherofTeachers,
+    .motherofAllCourse,
+    .motherofallClasses,
+    .subjsmotherofalltime,
+    .motherofPendingAdds,
+
+    #mother,
+    #teacherd,
+    #coursesforteachers,
+    .classesforTeachers,
+    .subsinfoforteachers,
+    .attendenceforStudents {
+
+        position: relative;
+
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+
+        width: 95%;
+
+        margin: 20px auto;
+    }
+
+
+    /* Sidebar becomes normal top navigation */
+
+    .urls,
+    .stdurls,
+    .AdminUrls,
+    .teacherurl {
+
+        width: 100%;
+
+        height: auto;
+
+        min-height: 0;
+
+        position: relative;
+
+        padding: 15px;
+
+        text-align: center;
+    }
+
+
+    /* Navigation links */
+
+    .urls a,
+    .stdurls a,
+    .AdminUrls a,
+    .teacherurl a {
+
+        display: inline-block;
+
+        padding: 8px;
+
+        margin: 5px;
+    }
+
+
+    /* Prevent cards from becoming huge */
+
+    .studetns,
+    .Teachuer,
+    .courseu,
+    .claasew,
+    .subjectu,
+    .reasonue,
+    .contactuer,
+    .EnrooledStds,
+    .PendingAdds,
+    .sttendenceeu,
+    .course,
+    .teachers,
+    .model {
+
+        width: 90%;
+
+        max-width: 330px;
+
+        height: auto;
+
+        min-height: 120px;
+
+        margin: 15px auto;
+
+        padding: 25px;
+
+        position: relative;
+
+        left: auto;
+        top: auto;
+    }
+
+
+    /* Stop these from creating giant empty areas */
+
+    .stdurls,
+    .teacherurl,
+    .AdminUrls {
+
+        max-height: none;
+    }
+
+
+    /* Form containers */
+
+    #studentForm,
+    #child,
+    #loginDiv {
+
+        position: relative;
+
+        top: auto;
+        left: auto;
+
+        width: 90%;
+
+        margin: 20px auto;
+    }
+}
+
+
+/* =========================================================
+   EXTRA SMALL PHONE
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+    .urls,
+    .stdurls,
+    .AdminUrls,
+    .teacherurl {
+
+        padding: 10px;
+    }
+
+    .urls a,
+    .stdurls a,
+    .AdminUrls a,
+    .teacherurl a {
+
+        display: block;
+
+        margin: 8px auto;
+    }
+
+    .studetns,
+    .Teachuer,
+    .courseu,
+    .claasew,
+    .subjectu,
+    .reasonue,
+    .contactuer,
+    .EnrooledStds,
+    .PendingAdds,
+    .sttendenceeu {
+
+        width: 95%;
+
+        padding: 20px;
+    }
+}
