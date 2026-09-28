@@ -2254,8 +2254,9 @@ select {
 @media (max-width: 800px) {
     .motherofallStudents {
         position: absolute !important;
-        top: 20px !important;
+        top: 120px !important;
         left: 200px !important;
+
         width: calc(100vw - 220px) !important;
         margin: 0 !important;
         padding: 10px !important;
