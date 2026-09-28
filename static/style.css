@@ -3543,3 +3543,11 @@ select {
         height: 250px;
     }
 }
+
+
+@media (min-width: 801px) {
+    .studetnDatat {
+        width: 300;
+        height: 350px;
+    }
+}
