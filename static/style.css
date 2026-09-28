@@ -2263,3 +2263,72 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+@media (max-width: 800px) {
+    #motherofCourses {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+
+        width: calc(100vw - 190px) !important;
+        max-width: none !important;
+
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    #motherofCourses .courseu {
+        width: 100% !important;
+        max-width: 300px !important;
+        height: auto !important;
+        min-height: 150px !important;
+
+        margin: 0 auto !important;
+        padding: 25px !important;
+        box-sizing: border-box !important;
+    }
+
+    #motherofCourses form {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+}
+
+@media (max-width: 800px) {
+    #motherofCourses {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+
+        width: calc(100vw - 190px) !important;
+        max-width: none !important;
+
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    #motherofCourses .courseu {
+        width: 100% !important;
+        max-width: 300px !important;
+        height: auto !important;
+        min-height: 150px !important;
+
+        margin: 0 auto !important;
+        padding: 25px !important;
+        box-sizing: border-box !important;
+    }
+
+    #motherofCourses form {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+}
