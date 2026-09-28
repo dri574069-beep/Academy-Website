@@ -2211,3 +2211,43 @@ select {
         padding: 5px 10px !important;
     }
 }
+
+
+#authenticateAdmin {
+    position: relative !important;
+
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+
+    width: min(90%, 350px) !important;
+    height: auto !important;
+    min-height: 300px;
+
+    margin: 80px auto !important;
+    padding: 35px !important;
+
+    box-sizing: border-box !important;
+}
+
+#authenticateAdmin input {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+#authenticateAdmin button {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+#lock {
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
