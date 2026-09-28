@@ -2912,3 +2912,24 @@ select {
         display: none !important;
     }
 }
+
+
+@media (max-width: 800px) {
+    .urls {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        width: 150px !important;
+        max-width: 150px !important;
+        box-sizing: border-box !important;
+        gap: 10px !important;
+    }
+
+    .urls a {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+        white-space: normal !important;
+    }
+}
