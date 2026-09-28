@@ -3366,19 +3366,25 @@ select {
 }
 
 
-.models,
-.urls {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 200px;
-    box-sizing: border-box;
-}
+@media (max-width: 800px) {
+    #models {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+        width: calc(100vw - 190px) !important;
+        max-width: calc(100vw - 190px) !important;
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+    }
 
-.models {
-    margin-bottom: 30px;
-}
-
-.urls {
-    margin-top: 30px;
+    #models .model {
+        width: 100% !important;
+        max-width: 400px !important;
+        height: auto !important;
+        min-height: 200px !important;
+        margin: 0 auto !important;
+        padding: 20px !important;
+        box-sizing: border-box !important;
+    }
 }
