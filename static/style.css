@@ -3364,3 +3364,21 @@ select {
         padding: 20px;
     }
 }
+
+
+.models,
+.urls {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+
+.models {
+    margin-bottom: 30px;
+}
+
+.urls {
+    margin-top: 30px;
+}
