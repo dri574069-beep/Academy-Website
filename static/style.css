@@ -2550,3 +2550,60 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+
+@media (max-width: 800px) {
+
+    #motherofClassesu {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+
+        width: calc(100vw - 190px) !important;
+        max-width: calc(100vw - 190px) !important;
+
+        margin: 0 !important;
+        padding: 10px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    #motherofClassesu .claasew {
+        position: relative !important;
+
+        width: 100% !important;
+        max-width: 400px !important;
+
+        height: auto !important;
+        min-height: 200px !important;
+
+        margin: 0 auto !important;
+        padding: 20px !important;
+
+        box-sizing: border-box !important;
+        overflow: visible !important;
+    }
+
+    #motherofClassesu .claasew form {
+        position: relative !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+    #motherofClassesu .claasew form input,
+    #motherofClassesu .claasew form select,
+    #motherofClassesu .claasew form textarea,
+    #motherofClassesu .claasew form button {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        box-sizing: border-box !important;
+    }
+}
