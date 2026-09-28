@@ -2974,3 +2974,17 @@ select {
         word-break: break-word !important;
     }
 }
+
+
+@media (max-width: 800px) {
+    .motherofusercourse {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+        width: calc(100vw - 190px) !important;
+        max-width: calc(100vw - 190px) !important;
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+    }
+}
