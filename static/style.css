@@ -2041,17 +2041,10 @@ select {
 }
 
 @media (max-width: 900px) {
-    form {
-        width: calc(100% - 220px) !important;
-        max-width: 500px !important;
-        margin-left: 200px !important;
-        box-sizing: border-box !important;
-    }
-
     form input,
     form select,
     form textarea {
-        width: 100% !important;
+        width: 320px !important;
         max-width: 100% !important;
         box-sizing: border-box !important;
     }
