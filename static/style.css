@@ -3412,3 +3412,31 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+
+
+@media (max-width: 800px) {
+    #authenticateAdmin {
+        position: absolute !important;
+        top: 120px !important;
+        left: 170px !important;
+
+        width: calc(100vw - 190px) !important;
+        max-width: 500px !important;
+
+        height: auto !important;
+        min-height: 250px !important;
+
+        padding: 25px !important;
+        box-sizing: border-box !important;
+
+        overflow: visible !important;
+    }
+
+    #authenticateAdmin input,
+    #authenticateAdmin button {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+}
