@@ -3465,3 +3465,10 @@ select {
         height: 150px;
     }
 }
+
+@media (min-width: 801px) {
+    .subjectu {
+        width: 200px;
+        height: 150px;
+    }
+}
