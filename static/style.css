@@ -2829,3 +2829,17 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+@media (max-width: 800px) {
+    .motherofTeachers {
+        position: absolute !important;
+        top: 120px !important;
+        left: 190px !important;
+        width: calc(100vw - 210px) !important;
+        max-width: calc(100vw - 210px) !important;
+        margin: 0 !important;
+        padding: 15px !important;
+        box-sizing: border-box !important;
+    }
+}
