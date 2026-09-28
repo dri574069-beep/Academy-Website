@@ -2890,3 +2890,25 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+@media (max-width: 800px) {
+    #urlsdiv {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        gap: 12px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    #urlsdiv a {
+        display: inline-block !important;
+        margin: 0 !important;
+        white-space: nowrap !important;
+    }
+
+    #urlsdiv br {
+        display: none !important;
+    }
+}
