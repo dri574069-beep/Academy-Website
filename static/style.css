@@ -2194,3 +2194,20 @@ select {
         padding: 20px !important;
     }
 }
+
+select {
+    box-sizing: border-box !important;
+    width: 180px !important;
+    height: 45px !important;
+    padding: 5px 10px !important;
+    line-height: normal !important;
+}
+
+@media (max-width: 600px) {
+    select {
+        width: 90% !important;
+        max-width: 250px !important;
+        height: 45px !important;
+        padding: 5px 10px !important;
+    }
+}
