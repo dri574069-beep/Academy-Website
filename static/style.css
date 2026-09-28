@@ -2773,3 +2773,24 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+@media (max-width: 800px) {
+    .attendenceforStudents form {
+        position: relative !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .attendenceforStudents form input,
+    .attendenceforStudents form select,
+    .attendenceforStudents form textarea,
+    .attendenceforStudents form button {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+}
