@@ -73,68 +73,41 @@
     border-radius:30px;
 }
 @media (max-width: 800px) {
-    #SigninHead .mother {
+
+    #SigninHead {
         width: 100%;
-        min-height: 100vh;
-        padding: 20px;
         margin: 0;
-        box-sizing: border-box;
+        padding: 0;
+        overflow-x: hidden;
     }
-
-    #SigninHead #child {
-        position: relative !important;
-        left: 0 !important;
-        top: 0 !important;
-
-        width: 100% !important;
-        max-width: 450px !important;
-
-        margin: 0 auto !important;
-        padding: 10px !important;
-
-        box-sizing: border-box !important;
-    }
-
-    #SigninHead #child input {
-        width: 100% !important;
-        max-width: 280px !important;
-        box-sizing: border-box !important;
-    }
-
-    #SigninHead #child select {
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-    }
-}
-@media (max-width: 800px) {
 
     #SigninHead .mother {
         width: 100% !important;
         min-height: 100vh !important;
-        padding: 15px !important;
         margin: 0 !important;
+        padding: 20px !important;
         box-sizing: border-box !important;
-        overflow-x: hidden !important;
+
+        display: block !important;
     }
 
     #SigninHead #child {
-        position: relative !important;
-        left: 0 !important;
-        top: 0 !important;
+        position: static !important;
+
         width: 100% !important;
         max-width: 450px !important;
         margin: 0 auto !important;
         padding: 10px !important;
+
         box-sizing: border-box !important;
     }
 
     #SigninHead .regis {
-        position: relative !important;
-        left: 0 !important;
-        top: 0 !important;
+        position: static !important;
 
         width: 100% !important;
         max-width: 400px !important;
+        min-width: 0 !important;
 
         margin: 20px auto !important;
         padding: 15px !important;
@@ -144,14 +117,22 @@
 
     #SigninHead .regis form {
         width: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important;
         box-sizing: border-box !important;
     }
 
     #SigninHead .regis input {
         width: 100% !important;
         max-width: 280px !important;
+        box-sizing: border-box !important;
+    }
+
+    #SigninHead .regis select {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    #SigninHead .regis button {
+        max-width: 100% !important;
         box-sizing: border-box !important;
     }
 }
