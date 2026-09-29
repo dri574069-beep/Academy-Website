@@ -72,10 +72,6 @@
     padding:50px;
     border-radius:30px;
 }
-#child{
-    position: relative;
-    left:200px;
-}
 
 @media (max-width: 800px) {
     #child {
