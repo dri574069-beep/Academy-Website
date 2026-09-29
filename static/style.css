@@ -3551,3 +3551,32 @@ select {
         height: 450px;
     }
 }
+
+
+@media (max-width: 800px) {
+    .regis {
+        position: relative !important;
+        left: 0 !important;
+        right: 0 !important;
+        top: auto !important;
+
+        width: 90% !important;
+        max-width: 400px !important;
+        height: auto !important;
+
+        margin: 20px auto !important;
+        padding: 20px !important;
+        box-sizing: border-box !important;
+
+        overflow: hidden !important;
+    }
+
+    .regis input,
+    .regis select,
+    .regis textarea,
+    .regis button {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+}
