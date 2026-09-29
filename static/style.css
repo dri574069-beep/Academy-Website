@@ -3553,7 +3553,7 @@ select {
 }
 
 
-@media (max-width: 400px) {
+@media (min-width: 800px) {
     .regis {
         position: relative !important;
         left: 0 !important;
