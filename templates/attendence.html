@@ -11,6 +11,7 @@
     <p>Enter the following credentials</p>
     <form method="POST" action="{% url 'getAttenDate' %}">
         {% csrf_token %}
+        <BR><BR><BR><BR>
         {{att.as_p}}
         <button type="submit">Enter</button>
     </form>

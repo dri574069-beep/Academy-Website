@@ -9,6 +9,7 @@
 </head>
 <body>
     <p>Enter the following credentials</p>
+    <BR><BR><BR><BR>
     <form method="POST" action="{% url 'getClassesData' %}">
         {% csrf_token %}
         {{classes.as_p}}

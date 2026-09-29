@@ -54,7 +54,7 @@
     {% for c in Cls %}
     <div class="claasew">
         <a href="{% url 'showClassesDataForAdmin' id=c.id %}"><i class="fa-solid fa-star"></i> Class Name : {{c.className}}</a>
-        <BR><BR>
+        <BR><BR><BR><BR><BR>
         <form method="POST" action="{% url 'deleteClass' %}">
             <input type="hidden" name="ClId" value="{{c.id}}">
             <button type="submit">Delete</button>

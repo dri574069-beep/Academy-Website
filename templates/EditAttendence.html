@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>Edit Attendence</h1>
+    <BR><BR><BR><BR>
     <form method="POST" enctype="multipart/form-data" action="{% url 'EditAttendence' id=id %}">
         {% csrf_token %}
         {{Aform.as_p}}

@@ -11,6 +11,7 @@
     <h1>Register</h1>
     <form method="POST" action="{% url 'Addmission' %}">
         {% csrf_token %}
+        <BR><BR><BR>
         {{add.as_p}}
         <button type="submit">Register</button>
     </form>

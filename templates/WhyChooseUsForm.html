@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>Enter the following credentials</h1>
+    <BR><BR><BR><BR>
     <form method="POST" action="{% url 'WhyChooseUs' %}">
         {% csrf_token %}
         {{form.as_p}}

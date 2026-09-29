@@ -70,6 +70,7 @@
         <p><i class="fa-solid fa-star-half-stroke"></i>  Phone Number : {{e.phone_number}}</p>
         <p><i class="fa-solid fa-star-half-stroke"></i>  Email : {{e.Email}}</p>
         <p><i class="fa-solid fa-star-half-stroke"></i>  Registeration Date : {{e.Registeration_Date}}</p>
+        <BR><BR><BR><BR><BR>
         <form method="POST" action="{% url 'DeleteEnrollment' %}">
             {% csrf_token %}
             <input type="hidden" value="{{e.id}}" name="enId">

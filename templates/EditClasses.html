@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>Edit Classes</h1>
+    <BR><BR><BR><BR>
     <form method="POST" enctype="multipart/form-data" action="{% url 'EditClasses' id=id %}">
         {% csrf_token %}
         {{form.as_p}}

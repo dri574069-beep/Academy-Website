@@ -38,6 +38,7 @@
          <p><i class="fa-solid fa-star-half-stroke"></i>  Date : {{at.date}}</p>
          <p><i class="fa-solid fa-star-half-stroke"></i>  Status : {{at.status}}</p>
          <p><i class="fa-solid fa-star-half-stroke"></i>  Teacher : {{at.Teacher}}</p>
+         <BR><BR><BR><BR>
          <form method="POST" action="{% url 'DeleteAttenForTeachers' %}">
             <input type="hidden" name="atTIf" value="{{at.id}}">
             <button type="submit">Delete</button>

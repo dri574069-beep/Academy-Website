@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>Enroll New Students</h1>
+    <BR><BR><BR><BR><BR>
     <form method="POST" action="{% url 'StudEnrollment' %}">
         {% csrf_token %}
         {{enroll.as_p}}

@@ -55,6 +55,7 @@
     <div class="sttendenceeu">
     <a href="{% url 'AttendenceDataForUser' id=a.id %}"><i class="fa-solid fa-user-tie"></i>  Attendence : {{a.student}}</a>
     <BR>
+        <BR><BR><BR>
     <form method="POST" action="{% url 'deleteAttendence' %}">
         {% csrf_token %}
         <input  type="hidden" name="attId" value="{{a.id}}">
