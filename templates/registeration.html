@@ -11,7 +11,7 @@
     <div class="mother">
     <div id="child">
     <h1>Sign In</h1>
-    <div class="regis"></div>
+    <div class="regis">
     <form method="POST" action="{% url 'signIn' %}">
         {% csrf_token %}
         {{regis.as_p}}
