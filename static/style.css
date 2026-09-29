@@ -3783,3 +3783,44 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    form {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    form h1,
+    form h2,
+    form h3 {
+        margin-bottom: 30px !important;
+    }
+
+    form p {
+        margin: 0 0 18px 0 !important;
+    }
+
+    form label {
+        display: block !important;
+        margin-bottom: 7px !important;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        margin-bottom: 12px !important;
+    }
+
+    form button {
+        margin-top: 15px !important;
+    }
+}
