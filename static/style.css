@@ -3585,3 +3585,42 @@ select {
         box-sizing: border-box !important;
     }
 }
+
+
+
+@media (max-width: 600px) {
+    .regis {
+        position: static !important;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+        transform: none !important;
+
+        display: block !important;
+
+        width: calc(100% - 30px) !important;
+        max-width: 450px !important;
+        min-width: 0 !important;
+
+        height: auto !important;
+        margin: 20px auto !important;
+        padding: 15px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .regis * {
+        max-width: 100% !important;
+        min-width: 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .regis input,
+    .regis select,
+    .regis textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+    }
+}
