@@ -72,70 +72,7 @@
     padding:50px;
     border-radius:30px;
 }
-@media (max-width: 800px) {
 
-    #SigninHead {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-
-    #SigninHead .mother {
-        width: 100% !important;
-        min-height: 100vh !important;
-        margin: 0 !important;
-        padding: 20px !important;
-        box-sizing: border-box !important;
-
-        display: block !important;
-    }
-
-    #SigninHead #child {
-        position: static !important;
-
-        width: 100% !important;
-        max-width: 450px !important;
-        margin: 0 auto !important;
-        padding: 10px !important;
-
-        box-sizing: border-box !important;
-    }
-
-    #SigninHead .regis {
-        position: static !important;
-
-        width: 100% !important;
-        max-width: 400px !important;
-        min-width: 0 !important;
-
-        margin: 20px auto !important;
-        padding: 15px !important;
-
-        box-sizing: border-box !important;
-    }
-
-    #SigninHead .regis form {
-        width: 100% !important;
-        box-sizing: border-box !important;
-    }
-
-    #SigninHead .regis input {
-        width: 100% !important;
-        max-width: 280px !important;
-        box-sizing: border-box !important;
-    }
-
-    #SigninHead .regis select {
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-    }
-
-    #SigninHead .regis button {
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-    }
-}
 select{
     width: 150px;
     height: 50px;
@@ -3664,5 +3601,72 @@ select {
         width: 100% !important;
         max-width: 100% !important;
         min-width: 0 !important;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+
+    #SigninHead {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    #SigninHead .mother {
+        width: 100% !important;
+        min-height: 100vh !important;
+        margin: 0 !important;
+        padding: 20px !important;
+        box-sizing: border-box !important;
+
+        display: block !important;
+    }
+
+    #SigninHead #child {
+        position: static !important;
+
+        width: 100% !important;
+        max-width: 450px !important;
+        margin: 0 auto !important;
+        padding: 10px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    #SigninHead .regis {
+        position: static !important;
+
+        width: 100% !important;
+        max-width: 400px !important;
+        min-width: 0 !important;
+
+        margin: 20px auto !important;
+        padding: 15px !important;
+
+        box-sizing: border-box !important;
+    }
+
+    #SigninHead .regis form {
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    #SigninHead .regis input {
+        width: 100% !important;
+        max-width: 280px !important;
+        box-sizing: border-box !important;
+    }
+
+    #SigninHead .regis select {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    #SigninHead .regis button {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
     }
 }
