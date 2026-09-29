@@ -76,6 +76,16 @@
     position: relative;
     left:400px;
 }
+
+@media (max-width: 800px) {
+    #child {
+        left: 0 !important;
+        width: 100% !important;
+        max-width: 450px !important;
+        margin: 0 auto !important;
+        box-sizing: border-box !important;
+    }
+}
 #child input{
     width: 280px;
     height: 30px;
